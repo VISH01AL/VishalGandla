@@ -1,4 +1,3 @@
-import React from 'react'
 import myphoto from '../../../public/myphoto.jpg'
 import Styles from './HomeRight.module.css'
 const HomeRight = () => {

@@ -1,4 +1,3 @@
-import React from 'react'
 import mainlogo from '../../../public/mainlogo.jpeg'
 import Styles from './Navbar.module.css'
 const Navbar = () => {
