@@ -1,11 +1,13 @@
 
 import './App.css'
-
+import Navbar from './Components/Core/Navbar'
+import Home from './Components/Core/Home'
 function App() {
 
   return (
     <div>
-      <h1>Vishal Gandla</h1>
+      <Navbar />
+      <Home />
     </div>
   )
 }

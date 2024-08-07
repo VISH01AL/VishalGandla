@@ -1,0 +1,15 @@
+*{
+    padding: 0;
+    box-sizing: border-box;
+    margin: 0;
+    font-family: 'geist-mono',sans-serif;
+}
+
+
+:root{
+    --color-logo-primary: rgb(166,208,204);
+    --color-logo-secondary: rgb(65,161,185);
+    --color-primary:rgb(72,49,212);
+    --color-tertiary: #F6C85F;
+    --color-secondary: rgb(203,243,129);
+}

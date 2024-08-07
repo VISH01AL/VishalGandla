@@ -1,0 +1,42 @@
+.container{
+    display: flex;
+    justify-content: space-between;
+
+    padding:1rem;
+    background-color: var(--color-primary);
+    color:var(--color-secondary);
+}
+
+.mainlogo{
+    width: 5rem;
+    height: 5rem;
+    object-fit: contain;
+    cursor: pointer;
+
+}
+.home{
+    display: flex;
+    align-items: center;
+    width: 40vw;
+}
+.homeheader{
+    padding-left: 0.5rem;
+    cursor: pointer;
+    font-size: 1.6rem;
+}
+.homeheader:hover{
+    text-decoration:underline dotted;
+}
+.list{
+    display: flex;
+    justify-content: space-between;
+    width: 40vw;
+    align-items: center;
+    font-size: 1.3rem;
+}
+.list>div{
+    cursor: pointer;
+}
+.list>div:hover{
+    text-decoration:underline dotted;
+}
