@@ -1,3 +1,22 @@
 .container{
-    display: flex;
+   
+    padding:1rem;
+}
+
+.name{
+
+}
+.minicontainer1{
+    background-color: blue;
+    width: 70vw;
+}
+.minicontainer2{
+    background-color: red;
+}
+
+.myphoto{
+    width: 20rem;
+    height: 20rem;
+    border-radius: 50%;
+    object-fit: contain;
 }
