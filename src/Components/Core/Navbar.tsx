@@ -1,4 +1,4 @@
-import mainlogo from '../../../public/mylogo.jpeg'
+import mainlogo from '../../images/mylogo.jpeg'
 import useTheme from '../hooks/theme/useTheme'
 import Styles from './Navbar.module.css'
 import { useLocation, useNavigate } from 'react-router-dom'

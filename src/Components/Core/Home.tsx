@@ -1,4 +1,4 @@
-import myphoto from '../../../public/myphoto.jpg'
+import myphoto from '../../images/myphoto.jpg'
 
 import Styles from './Home.module.css'
 import Navbar from './Navbar'
