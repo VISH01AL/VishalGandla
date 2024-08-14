@@ -65,7 +65,7 @@ const Career = () => {
                   : ``
               }`}
             >
-              <h2>Amara Raja Batteries Limited Tirupati, India</h2>
+              <h2>Amara Raja Batteries, Tirupati, India</h2>
               <h3>Intern (May 2019 – June 2019)</h3>
               <a href="https://www.amararaja.com/" target="_blank">
                 <button  className={`${Styles.outlinks} ${Styles[`button_${theme}`]}`}>Visit Amaraja</button>

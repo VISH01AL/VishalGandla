@@ -7,50 +7,53 @@ const Wipro = () => {
     <div className={Styles.container}>
       <div className={Styles.minicontainer1}>
         <h2 className={Styles.maintext}>
-          Migration of Mortgage Trading System for Enhanced Server Performance
+          Migration of Mortgage Trading System to Azure Cloud for Enhanced Server Performance
         </h2>
         <img
           src={migration}
           alt="migration image"
           className={Styles.migrationimage}
         ></img>
-        <ul>
+        <ul className={Styles.list}>
           <li>
-            Spearheaded a migration project at Wipro, focusing on relocating C
-            and Bash code from a Solaris server to a Red Hat Enterprise Linux
-            server.
-          </li>
-          <li>
-            Aimed at improving server performance, reliability, and speed for a
+            Led a migration project to move C, Bash, and Perl code from an
+            on-premises Solaris server to Azure Cloud Red Hat Enterprise Linux,
+            aiming to enhance server performance, reliability, and speed for a
             banking client.
           </li>
           <li>
-            Key responsibilities included compiling C code using makefiles and
-            resolving compatibility issues arising from the migration between
-            Solaris and Linux environments.
+            Compiled and optimized C code using make files, resolving
+            compatibility issues and ensuring smooth operation in the new Linux
+            environment.
           </li>
           <li>
-            Fixed numerous bugs caused by the migration and wrote fixes for
-            non-working functions.
+            Identified and fixed bugs introduced by the migration, including
+            rewriting non-functional code segments to ensure reliability and
+            functionality.
           </li>
           <li>
-            The migrated C code binaries played a crucial role in establishing
-            database connections, performing mathematical operations on data,
-            and storing the resulting data.
+            Managed CA Workload Automation using JIL (Job Information Language)
+            to execute UNIX scripts containing the migrated binaries,
+            effectively automating job scheduling and monitoring.
+          </li>
+          <li>
+            Trained the team on the project structure, JIL, C code, shell
+            scripting, and overall project workflow, which improved team
+            proficiency and accelerated project completion.
           </li>
         </ul>
       </div>
 
       <div className={Styles.minicontainer2}>
         <h2 className={Styles.maintext}>
-          Integration of Google Tags and Data Analytics in Website Development
+          Tracking and analyzing Ecommerece data using Google Tag Manager and Google Data Analytics 
         </h2>
         <img
           src={googleanalytics}
           alt="googleanalytics image"
           className={Styles.googleanalyticsimage}
         ></img>
-        <ul>
+        <ul className={Styles.list}>
           <li>
             Developed a website using HTML, CSS, and JavaScript as the primary
             project at Wipro Technologies.
@@ -64,14 +67,15 @@ const Wipro = () => {
             for effective user data gathering.
           </li>
           <li>
-            Transferred acquired data from tags and triggers to Google Analytics
-            for comprehensive visual analysis.
-          </li>
-          <li>
             Employed Tags and triggers to capture crucial information, including
             page views, product views, the number of products purchased, and the
             total amount spent in a single session.
           </li>
+          <li>
+            Transferred acquired data from tags and triggers to Google Analytics
+            for comprehensive visual analysis.
+          </li>
+          
         </ul>
       </div>
     </div>
