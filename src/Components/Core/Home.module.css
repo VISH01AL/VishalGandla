@@ -1,22 +1,122 @@
+@media (min-width: 1101px) { /* Adjust breakpoints as needed */
 .container{
-   
     padding:1rem;
 }
-
-.name{
-
+.container_theme1{
+background-color: var(--primary-theme1);
+color: var(--secondary-theme1);
 }
+.container_theme2{
+    background-color: var(--primary-theme2);
+    color: var(--secondary-theme2);}
+.container_theme3{
+    background-color: var(--primary-theme3);
+   color: var(--secondary-theme3);
+}
+
 .minicontainer1{
-    background-color: blue;
-    width: 70vw;
+text-align: center;
+font-size: 4rem;
 }
 .minicontainer2{
-    background-color: red;
+    display: flex;
+    margin: 3rem;
+    box-sizing: border-box;
+    
 }
 
+.microcontainer1{
+    width: 20rem;
+    height: 20rem;
+    box-sizing: border-box;
+}
+.microcontainer2{
+    flex:3;
+    box-sizing: border-box;
+}
 .myphoto{
     width: 20rem;
     height: 20rem;
-    border-radius: 50%;
-    object-fit: contain;
+    border-radius:50%;
+    object-fit: cover;
+    width: 100%;
+}
+.maintextcontainer{
+    padding-bottom:1rem ;
+}
+.maintext{
+font-size: 2.2rem;
+padding:0.3rem 3rem ;
+}
+.sidetext{
+    font-size: 1.2rem;
+padding:0rem 3rem 0rem 3rem;
+}
+}
+
+
+
+
+
+
+@media (max-width: 1100px) { /* for mobile */
+    .container{
+        padding:1rem;
+    }
+    .container_theme1{
+    background-color: var(--primary-theme1);
+    color: var(--secondary-theme1);
+    }
+    .container_theme2{
+        background-color: var(--primary-theme2);
+        color: var(--secondary-theme2);}
+    .container_theme3{
+        background-color: var(--primary-theme3);
+       color: var(--secondary-theme3);
+    }
+    
+    .minicontainer1{
+    text-align: center;
+    font-size: 2rem;
+    padding-top: 1rem;
+    padding-bottom: 1rem;
+    }
+    .minicontainer2{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        margin: 1.5rem;
+        box-sizing: border-box;
+    }
+    
+    .microcontainer1{
+        overflow: hidden;
+        width: 10rem;
+        height: 10rem;
+        box-sizing: border-box;
+    }
+    .microcontainer2{
+
+        flex:3;
+        box-sizing: border-box;
+        padding-bottom: 3rem;
+    }
+    .myphoto{
+        width: 10rem;
+        height: 10rem;
+        border-radius:50%;
+        object-fit: cover;
+        width: 100%;
+    }
+    .maintextcontainer{
+        padding-bottom:1.5rem ;
+    }
+    .maintext{
+    font-size: 1.1rem;
+    padding:0.3rem 1.5rem;
+    }
+    .sidetext{
+    font-size: 1.2rem;
+    padding:0rem 1.5rem;
+    }
 }

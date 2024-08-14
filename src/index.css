@@ -1,25 +1,75 @@
-*{
-    padding: 0;
-    box-sizing: border-box;
-    margin: 0;
-    font-family: 'Lobster',sans-serif;
-    transition: all 0.3s ease; 
-    overflow: hidden;
-}
-
-
 :root{
-    --color-primary-theme1:rgb(74, 183, 220);
-    --color-secondary-theme1: black;
+    --primary-theme1:rgb(74, 183, 220);
+    --secondary-theme1: black;
 
-    --color-primary-theme2:black;
-    --color-secondary-theme2: white;
+    --primary-theme2:black;
+    --secondary-theme2: white;
 
-    --color-primary-theme3: #00203FFF;
-    --color-secondary-theme3: #ADEFD1FF;
+    --primary-theme3: #00203FFF;
+    --secondary-theme3: #ADEFD1FF;
 
     --color-menu:aquamarine   ;
 
     --selected-navbar:aquamarine;
     --selected-navbar-text:black;
+    --footer-icon-color:white;
+    --footer-icon-color-hover:aquamarine;
+
+}
+
+
+*{
+    padding: 0;
+    box-sizing: border-box;
+    margin: 0;
+    font-family: 'Lobster',sans-serif;
+    transition: all 0.3s ease;   
+    /* overflow-x: hidden; */
+    scrollbar-width: thin; /* For Firefox: makes the scrollbar thin */
+    scrollbar-color: #3498db transparent; /* For Firefox: custom color */
+}
+body{
+    overflow-y: auto;
+}
+/* Custom scrollbar styles for all elements */
+*::-webkit-scrollbar {
+    width: 10px; /* Width of the scrollbar */
+}
+
+/* Track of the scrollbar */
+*::-webkit-scrollbar-track {
+    background: none; /* Removes the scrollbar background */
+}
+
+/* Handle of the scrollbar */
+*::-webkit-scrollbar-thumb {
+    background-color: #3498db; /* Custom scrollbar color */
+    border-radius: 10px; /* Rounds the scrollbar edges */
+}
+
+/* Handle on hover */
+*::-webkit-scrollbar-thumb:hover {
+    background-color: #2980b9; /* Darker shade when hovered */
+}
+
+/* Remove scrollbar arrows */
+*::-webkit-scrollbar-button {
+    display: none; /* Hides the up/down arrows */
+}
+
+
+
+
+
+@media (max-width: 1100px) { /* for mobile */
+
+*{
+overflow-x: hidden;
+overflow-y: auto;
+}
+
+body{
+overflow-y: auto;
+}
+
 }

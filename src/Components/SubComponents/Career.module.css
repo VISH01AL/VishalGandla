@@ -1,0 +1,170 @@
+@media (min-width: 1101px) {
+  /* Adjust breakpoints as needed */
+
+  .container {
+    padding: 1rem;
+  }
+  .container_theme1 {
+    background-color: var(--primary-theme1);
+    color: var(--secondary-theme1);
+  }
+  .container_theme2 {
+    background-color: var(--primary-theme2);
+    color: var(--secondary-theme2);
+  }
+  .container_theme3 {
+    background-color: var(--primary-theme3);
+    color: var(--secondary-theme3);
+  }
+
+  .top {
+    box-sizing: border-box;
+    display: flex;
+  }
+  .bottom {
+    padding: 2rem;
+    box-sizing: border-box;
+  }
+  .selected_experience {
+    color: var(--selected-navbar-text);
+    background-color: var(--selected-navbar);
+    padding: 1rem; /* Transition to padding 1rem */
+    border-radius: 1rem;
+    animation-name: selectedfornav;
+    animation-duration: 1s;
+    animation-fill-mode: forwards;
+  }
+  @keyframes selectedfornav {
+    0% {
+      padding: 0;
+    }
+    100% {
+      padding: 1rem;
+      background-color: var(--selected-navbar);
+      color: var(--selected-navbar-text);
+    }
+  }
+  .experience1,
+  .experience2 {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    cursor: pointer;
+    padding: 1rem;
+  }
+  .wiprologo,
+  .amarajalogo {
+    width: 10rem;
+    margin: 1rem;
+    height: 10rem;
+    border-radius: 50%;
+    object-fit: cover;
+    background-color: white;
+  }
+
+  .minicontainer1,
+  .minicontainer2 {
+    display: flex;
+  }
+  .each_experience {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+  .each_experience > * {
+    padding: 0.3rem;
+    /* background-color: red; */
+  }
+  .outlinks {
+    padding: 1rem;
+    border: 0px solid white;
+    border-radius: 0.5rem;
+    cursor:alias;
+  }
+
+  .button_theme1 {
+    background-color: var(--primary-theme1);
+    color: var(--secondary-theme1);
+  }
+  .button_theme2 {
+    background-color: var(--primary-theme2);
+    color: var(--secondary-theme2);
+  }
+  .button_theme3 {
+    background-color: var(--primary-theme3);
+    color: var(--secondary-theme3);
+  }
+}
+
+@media (max-width: 1100px) {
+  /* for mobile */
+  .container {
+    padding: 1rem;
+  }
+  .container_theme1 {
+    background-color: var(--primary-theme1);
+    color: var(--secondary-theme1);
+  }
+  .container_theme2 {
+    background-color: var(--primary-theme2);
+    color: var(--secondary-theme2);
+  }
+  .container_theme3 {
+    background-color: var(--primary-theme3);
+    color: var(--secondary-theme3);
+  }
+
+  .top {
+    box-sizing: border-box;
+    display: flex;
+  }
+  .bottom {
+    padding: 2rem;
+    width: 65vw;
+    box-sizing: border-box;
+  }
+  .selected_experience {
+    color: var(--selected-navbar-text);
+    background-color: var(--selected-navbar);
+    padding: 1rem; /* Transition to padding 1rem */
+    border-radius: 1rem;
+    animation-name: selectedfornav;
+    animation-duration: 1s;
+    animation-fill-mode: forwards;
+  }
+  @keyframes selectedfornav {
+    0% {
+      padding: 0;
+    }
+    100% {
+      padding: 1rem;
+      background-color: var(--selected-navbar);
+      color: var(--selected-navbar-text);
+    }
+  }
+  .experience1,
+  .experience2 {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    cursor: pointer;
+    padding: 1rem;
+  }
+  .wiprologo,
+  .amarajalogo {
+    width: 10rem;
+    margin: 1rem;
+    height: 10rem;
+    border-radius: 50%;
+    object-fit: cover;
+    background-color: white;
+  }
+
+  .minicontainer1,
+  .minicontainer2 {
+    display: flex;
+  }
+
+  .Right {
+  }
+}

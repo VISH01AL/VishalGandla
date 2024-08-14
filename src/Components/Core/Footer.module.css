@@ -1,0 +1,74 @@
+.container{
+    display: flex;
+    padding:3rem;
+    align-items: center;
+    justify-content: center;
+}
+.container_theme1{
+    background-color: var(--primary-theme1);
+    color: var(--secondary-theme1);
+}
+.container_theme2{
+    background-color: var(--primary-theme2);
+    color: var(--secondary-theme2);}
+.container_theme3{
+    background-color: var(--primary-theme3);
+    color: var(--secondary-theme3);
+}
+
+.images{
+    width:1.5rem;
+    height: 1.5rem;
+}
+.mailtip {
+    position: relative;
+    display: inline-block;
+    border-bottom: 1px dotted black;
+    background-color: var(--footer-icon-color);
+    margin: 0.5rem;
+    border-radius: 50%;
+    padding:0.3rem;
+    cursor: pointer;
+}
+.mailtip:hover {
+    position: relative;
+    display: inline-block;
+    border-bottom: 1px dotted black;
+    background-color: var(--footer-icon-color-hover);
+    margin: 0.5rem;
+    border-radius: 50%;
+    padding:0.3rem;
+    cursor: pointer;
+
+}
+  
+  .mailtip .mailtiptext {
+    visibility: hidden;
+    width: 120px;
+    text-align: center;
+    border-radius: 6px;
+    padding: 5px 0;
+    position: absolute;
+    z-index: 1;
+    bottom: 125%;
+    left: 50%;
+    margin-left: -60px;
+    opacity: 0;
+    transition: opacity 0.3s;
+  }
+  
+  .mailtip .mailtiptext::after {
+    content: "";
+    position: absolute;
+    top: 100%;
+    left: 50%;
+    margin-left: -5px;
+    border-width: 5px;
+    border-style: solid;
+    border-color: #555 transparent transparent transparent;
+  }
+  
+  .mailtip:hover .mailtiptext {
+    visibility: visible;
+    opacity: 1;
+  }

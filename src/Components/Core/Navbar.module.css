@@ -9,17 +9,17 @@
         font-weight: 500;
     }
     .container_theme1{
-        background-color: var(--color-primary-theme1);
-        color:var(--color-secondary-theme1);
+        background-color: var(--primary-theme1);
+        color:var(--secondary-theme1);
     }
     .container_theme2{
-        background-color: var(--color-primary-theme2);
-        color:var(--color-secondary-theme2);
+        background-color: var(--primary-theme2);
+        color:var(--secondary-theme2);
     }
     
     .container_theme3{
-        background-color: var(--color-primary-theme3);
-        color:var(--color-secondary-theme3);
+        background-color: var(--primary-theme3);
+        color:var(--secondary-theme3);
     }
     .mainlogo{
         width: 4.5rem;
@@ -65,7 +65,7 @@
         overflow: hidden;
         border-radius: 1rem;
         height: 5rem;
-    
+        padding:0.3rem;
     }
     .theme1,.theme2,.theme3{
         padding:0.3rem;
@@ -76,13 +76,13 @@
     
     }
     .theme1{
-    background-color: var(--color-primary-theme1);
+    background-color: var(--primary-theme1);
     }
     .theme2{
-        background-color: var(--color-primary-theme2);
+        background-color: var(--primary-theme2);
     }
     .theme3{
-        background-color: var(--color-primary-theme3);
+        background-color: var(--primary-theme3);
     }
     .selectedtheme{
         padding:0.6rem;
@@ -93,6 +93,7 @@
         cursor: pointer;
         /* background-color: pink; */
         padding: 0; /* Start with padding 0 */
+        margin: 0.3rem;
     }
     
     .navitems:hover {
@@ -170,17 +171,17 @@
         font-weight: 500;
     }
     .container_theme1{
-        background-color: var(--color-primary-theme1);
-        color:var(--color-secondary-theme1);
+        background-color: var(--primary-theme1);
+        color:var(--secondary-theme1);
     }
     .container_theme2{
-        background-color: var(--color-primary-theme2);
-        color:var(--color-secondary-theme2);
+        background-color: var(--primary-theme2);
+        color:var(--secondary-theme2);
     }
     
     .container_theme3{
-        background-color: var(--color-primary-theme3);
-        color:var(--color-secondary-theme3);
+        background-color: var(--primary-theme3);
+        color:var(--secondary-theme3);
     }
     .mainlogo{
         width: 2.5rem;
@@ -230,13 +231,13 @@
     
     }
     .theme1{
-        background-color: var(--color-primary-theme1);
+        background-color: var(--primary-theme1);
     }
     .theme2{
-        background-color: var(--color-primary-theme2);
+        background-color: var(--primary-theme2);
     }
     .theme3{
-        background-color: var(--color-primary-theme3);
+        background-color: var(--primary-theme3);
     }
     .selectedtheme{
         padding:0.4rem;
@@ -258,7 +259,7 @@
     .selectednav {
         background-color: var(--selected-navbar);
         padding: 1rem; /* Transition to padding 1rem */
-        border-radius: 1rem;
+        border-radius: 0.5rem;
         animation-name: selected;
         animation-duration: 1s;
         color: var(--selected-navbar-text);
@@ -296,10 +297,13 @@
     display: flex;
     flex-direction: column;
     align-items: center;
+    height: 100vh;
+    box-sizing: initial;
 }
 .mobilecontainernone>div{
     margin: 0.3rem 0rem;
     padding:0.3rem;
+
 }
 @keyframes burgeranimationback {
     0%{
@@ -332,41 +336,41 @@
 }
 
 .mobilecontainershow_theme1{
-    background-color: var(--color-primary-theme1);
-    color:var(--color-secondary-theme1);
+    background-color: var(--primary-theme1);
+    color:var(--secondary-theme1);
 
 }
 
 .mobilecontainershow_theme2{
-    background-color: var(--color-primary-theme2);
-    color:var(--color-secondary-theme2);
+    background-color: var(--primary-theme2);
+    color:var(--secondary-theme2);
 
 }
 .mobilecontainershow_theme3{
-    background-color: var(--color-primary-theme3);
-    color:var(--color-secondary-theme3);
+    background-color: var(--primary-theme3);
+    color:var(--secondary-theme3);
 
 }
 
 .mobilecontainernone_theme1{
-    background-color: var(--color-primary-theme1);
-    color:var(--color-secondary-theme1);
+    background-color: var(--primary-theme1);
+    color:var(--secondary-theme1);
 }
 
 .mobilecontainernone_theme2{
-    background-color: var(--color-primary-theme2);
-    color:var(--color-secondary-theme2);
+    background-color: var(--primary-theme2);
+    color:var(--secondary-theme2);
 }
 
 .mobilecontainernone_theme3{
-    background-color: var(--color-primary-theme3);
-    color:var(--color-secondary-theme3);
+    background-color: var(--primary-theme3);
+    color:var(--secondary-theme3);
 }
 
 .selectedhome {
     background-color: var(--selected-navbar);
     padding: 0rem; /* Transition to padding 1rem */
-    border-radius: 1rem;
+    border-radius: 0.5rem;
     animation-name: selectedforhome;
     animation-duration: 1s;
     animation-fill-mode: forwards;
