@@ -5,8 +5,8 @@ import AmarajaLogo from "../../images/career/Amara raja Logo.png";
 import Styles from "./Career.module.css";
 import useTheme from "../hooks/theme/useTheme";
 import { useState } from "react";
-import AmaraRaja from "./AmaraRaja";
-import Wipro from "./Wipro";
+import AmaraRaja from "./Career/AmaraRaja";
+import Wipro from "./Career/Wipro";
 const Career = () => {
   const { theme } = useTheme();
   const [showCompany, setShowCompany] = useState("company1");

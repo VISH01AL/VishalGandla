@@ -1,4 +1,4 @@
-import amarajaproject from '../../images/career/amarajaproject.jpeg'
+import amarajaproject from '../../../images/career/amarajaproject.jpeg'
 import Styles from './Wipro.module.css'
 const AmaraRaja = () => {
   return (
