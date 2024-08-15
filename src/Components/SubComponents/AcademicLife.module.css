@@ -1,0 +1,40 @@
+@media (min-width: 1101px) {
+.container {
+    padding: 1rem;
+  }
+  .container_theme1 {
+    background-color: var(--primary-theme1);
+    color: var(--secondary-theme1);
+  }
+  .container_theme2 {
+    background-color: var(--primary-theme2);
+    color: var(--secondary-theme2);
+  }
+  .container_theme3 {
+    background-color: var(--primary-theme3);
+    color: var(--secondary-theme3);
+  }
+  .institution{
+    padding: 1rem;
+  }
+}
+
+
+
+@media (max-width: 1100px) {
+    .container {
+        padding: 1rem;
+      }
+      .container_theme1 {
+        background-color: var(--primary-theme1);
+        color: var(--secondary-theme1);
+      }
+      .container_theme2 {
+        background-color: var(--primary-theme2);
+        color: var(--secondary-theme2);
+      }
+      .container_theme3 {
+        background-color: var(--primary-theme3);
+        color: var(--secondary-theme3);
+      }
+}

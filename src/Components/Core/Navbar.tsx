@@ -28,8 +28,8 @@ const Navbar = () => {
             <div onClick={()=>{navigate("/career")}}        className={`${Styles.navitems} ${Styles.career}  ${location.pathname==="/career" ? `${Styles.selectednav}`: ""}`}>Career</div>
               <div onClick={()=>{navigate("/academiclife")}}  className={`${Styles.navitems} ${Styles.academiclife}  ${location.pathname==="/academiclife" ? `${Styles.selectednav}`: ""}`}>Academic Life</div>
                 <div onClick={()=>{navigate("/projects")}}      className={`${Styles.navitems} ${Styles.projects}  ${location.pathname==="/projects" ? `${Styles.selectednav}`: ""}`}>Projects</div>
+                <div onClick={()=>{navigate("/skillset")}}         className={`${Styles.navitems} ${Styles.about}  ${location.pathname==="/skillset" ? `${Styles.selectednav}`: ""}`}>Skillset</div>
                 <div onClick={()=>{navigate("/contact")}}       className={`${Styles.navitems} ${Styles.contact}  ${location.pathname==="/contact" ? `${Styles.selectednav}`: ""}`}>Contact</div>
-                <div onClick={()=>{navigate("/about")}}         className={`${Styles.navitems} ${Styles.about}  ${location.pathname==="/about" ? `${Styles.selectednav}`: ""}`}>about</div>
                 <div className={Styles.theme}>
                     <div onClick={()=>{setTheme("theme1")}} className={`${Styles.theme1} ${theme==="theme1" ? `${Styles.selectedtheme}` : ""} `}></div>
                     <div onClick={()=>{setTheme("theme2")}} className={`${Styles.theme2} ${theme==="theme2" ? `${Styles.selectedtheme}` : ""}`}></div>
@@ -44,8 +44,8 @@ const Navbar = () => {
             <div onClick={()=>{navigate("/academiclife")}}  className={`${Styles.navitems} ${Styles.academiclife}  ${location.pathname==="/academiclife" ? `${Styles.selectednav}`: ""}`}>Academic Life</div>
 
             <div onClick={()=>{navigate("/projects")}}      className={`${Styles.navitems} ${Styles.projects}  ${location.pathname==="/projects" ? `${Styles.selectednav}`: ""}`}>Projects</div>
+            <div onClick={()=>{navigate("/skillset")}}         className={`${Styles.navitems} ${Styles.about}  ${location.pathname==="/skillset" ? `${Styles.selectednav}`: ""}`}>Skillset</div>
             <div onClick={()=>{navigate("/contact")}}       className={`${Styles.navitems} ${Styles.contact}  ${location.pathname==="/contact" ? `${Styles.selectednav}`: ""}`}>Contact</div>
-            <div onClick={()=>{navigate("/about")}}         className={`${Styles.navitems} ${Styles.about}  ${location.pathname==="/about" ? `${Styles.selectednav}`: ""}`}>about</div>
             <div className={Styles.theme}>
                 <div onClick={()=>{setTheme("theme1")}} className={`${Styles.theme1} ${theme==="theme1" ? `${Styles.selectedtheme}` : ""} `}></div>
                 <div onClick={()=>{setTheme("theme2")}} className={`${Styles.theme2} ${theme==="theme2" ? `${Styles.selectedtheme}` : ""}`}></div>
