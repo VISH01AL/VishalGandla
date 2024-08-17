@@ -25,7 +25,7 @@ const Home = () => {
                 Whether it’s web development, code migration, machine learning, testing,
                 or architecting scalable and reliable software systems, my goal is to deliver
                 tailored products and solutions that drive client success. Let’s create impactful technology and products 
-                together
+                together. I would love to connect regarding any job and co-op opportunities. 
                 </div>
               </div>  
               

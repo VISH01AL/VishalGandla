@@ -1,40 +1,297 @@
 @media (min-width: 1101px) {
 .container {
     padding: 1rem;
+    display: flex;
+    flex-direction: column;
+    --line-height:5rem;
+
   }
   .container_theme1 {
     background-color: var(--primary-theme1);
     color: var(--secondary-theme1);
+
   }
   .container_theme2 {
     background-color: var(--primary-theme2);
-    color: var(--secondary-theme2);
+    color: var(--secondary-theme2);   
+
+
   }
   .container_theme3 {
     background-color: var(--primary-theme3);
     color: var(--secondary-theme3);
+
+  }
+  .centering{
+    margin: auto;
   }
   .institution{
-    padding: 1rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
   }
+  .timeline{
+    margin: 0 1rem;
+  }
+  
+  .logo1{
+    width: 10rem;
+    height:10rem;
+    object-fit: contain;
+    margin: 1rem;
+    border-radius: 50%;
+
+  }
+  .logo2{
+    width: 10rem;
+    height:10rem;
+    object-fit: contain;
+    margin: 1rem;
+    background-color: white;
+    border-radius: 50%;
+  }
+  .logo3{
+    width: 10rem;
+    height:10rem;
+    object-fit: contain;
+    margin: 1rem;
+    border-radius: 50%;
+
+  }
+  .name {
+    font-size: 1.2rem;
+    font-weight: bold;
+    margin-bottom: 0.2rem;
+  }
+  .minicontainer1{
+    background-color: var(--academic-life);
+    color:var(--academic-life-text);
+    padding:1rem;
+    border-radius: 1rem;
+    width: 30rem;
+    box-sizing: border-box;
+  }
+  .onebox:hover{
+    background-color: white;
+    border-radius: 1rem;
+  }
+.minicontainer1>*{
+  margin:0.5rem;
+}
+.onebox{
+  display: flex;
+  align-items: center;
+}
+  .dot {
+    width: 2rem;
+    height: 2rem;
+    background: var( --academic-life-centerline);
+    border-radius: 50%;
+  }
+
+  .line0{
+    height: var(--line-height);
+    width: 2px;
+    margin-left:1rem;
+    /* background-color: grey; */
+  }
+  .line1,.line3{
+    height: var(--line-height);
+    width: 2px;
+    background:  var( --academic-life-centerline);
+    margin-left:1rem;
+  }
+  .line2,.line4{
+    height:var(--line-height);
+    width: 2px;
+    background: var( --academic-life-centerline);
+    margin-left:1rem;
+  }
+  .lineend{
+    height: var(--line-height);
+    width: 2px;
+    margin-left:1rem;
+    /* background-color: grey; */
+  }
+.gpa_duration{
+  display: flex;
+  justify-content: space-between;
+}.gpa{
+  margin-right: 1rem;
+}
+  .outlinks {
+    padding: 0.8rem;
+    border: 0px solid white;
+    border-radius: 0.5rem;
+    cursor:pointer;
+  }
+  .outlinks:hover{
+    padding:1.5rem;
+  }
+  .button_theme1 {
+    background-color: var(--primary-theme1);
+    color: var(--secondary-theme1);
+  }
+  .button_theme2 {
+    background-color: var(--primary-theme2);
+    color: var(--secondary-theme2);
+  }
+  .button_theme3 {
+    background-color: var(--primary-theme3);
+    color: var(--secondary-theme3);
+  }
+
 }
 
 
 
+
+
 @media (max-width: 1100px) {
-    .container {
-        padding: 1rem;
-      }
-      .container_theme1 {
-        background-color: var(--primary-theme1);
-        color: var(--secondary-theme1);
-      }
-      .container_theme2 {
-        background-color: var(--primary-theme2);
-        color: var(--secondary-theme2);
-      }
-      .container_theme3 {
-        background-color: var(--primary-theme3);
-        color: var(--secondary-theme3);
-      }
+  .container {
+    padding: 1rem;
+    display: flex;
+    flex-direction: column;
+    --line-height:5rem;
+
+  }
+  .container_theme1 {
+    background-color: var(--primary-theme1);
+    color: var(--secondary-theme1);
+
+  }
+  .container_theme2 {
+    background-color: var(--primary-theme2);
+    color: var(--secondary-theme2);   
+
+
+  }
+  .container_theme3 {
+    background-color: var(--primary-theme3);
+    color: var(--secondary-theme3);
+
+  }
+  .centering{
+    margin: auto;
+
+  }
+  .institution{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+  }
+  .timeline{
+    margin: 0 1rem;
+    display: none;
+  }
+  
+  .logo1{
+    width: 3rem;
+    height:3rem;
+    object-fit: contain;
+    margin: 1rem;
+    border-radius: 50%;
+
+  }
+  .logo2{
+    width: 3rem;
+    height:3rem;
+    object-fit: contain;
+    margin: 1rem;
+    background-color: white;
+    border-radius: 50%;
+  }
+  .logo3{
+    width: 3rem;
+    height:3rem;
+    object-fit: contain;
+    margin: 1rem;
+    border-radius: 50%;
+
+  }
+  .name {
+    font-size: 1rem;
+    font-weight: bold;
+    margin-bottom: 0.2rem;
+  }
+  .minicontainer1{
+    background-color: var(--academic-life);
+    color:var(--academic-life-text);
+    padding:0.5rem;
+    border-radius: 1rem;
+    box-sizing: border-box;
+    width: 17rem;
+  }
+  .onebox:hover{
+    background-color: white;
+    border-radius: 1rem;
+  }
+.minicontainer1>*{
+  margin:0.5rem 0;
+}
+.onebox{
+  display: flex;
+  align-items: center;
+  margin-bottom: 1rem;
+}
+  .dot {
+    width: 2rem;
+    height: 2rem;
+    background: var( --academic-life-centerline);
+    border-radius: 50%;
+  }
+
+  .line0{
+    height: var(--line-height);
+    width: 2px;
+    margin-left:1rem;
+    /* background-color: grey; */
+  }
+  .line1,.line3{
+    height: var(--line-height);
+    width: 2px;
+    background:  var( --academic-life-centerline);
+    margin-left:1rem;
+  }
+  .line2,.line4{
+    height:var(--line-height);
+    width: 2px;
+    background: var( --academic-life-centerline);
+    margin-left:1rem;
+  }
+  .lineend{
+    height: var(--line-height);
+    width: 2px;
+    margin-left:1rem;
+    /* background-color: grey; */
+  }
+.gpa_duration{
+  display: flex;
+  justify-content: space-between;
+}.gpa{
+  margin-right: 1rem;
+}
+  .outlinks {
+    padding: 0.8rem;
+    border: 0px solid white;
+    border-radius: 0.5rem;
+    cursor:pointer;
+  }
+  .outlinks:hover{
+    padding:1.5rem;
+  }
+  .button_theme1 {
+    background-color: var(--primary-theme1);
+    color: var(--secondary-theme1);
+  }
+  .button_theme2 {
+    background-color: var(--primary-theme2);
+    color: var(--secondary-theme2);
+  }
+  .button_theme3 {
+    background-color: var(--primary-theme3);
+    color: var(--secondary-theme3);
+  }
 }
