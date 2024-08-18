@@ -56,10 +56,7 @@ const About = () => {
                 <li>Part of Cricket Club at VIT.</li>
               </ul>
             </li>
-            <li>
-              <div></div>
-              <ul className={Styles.list}></ul>
-            </li>
+           
             <li>
               <h3 className={Styles.subText}>Student Clerical</h3>
               <ul className={Styles.list}>

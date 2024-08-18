@@ -9,6 +9,9 @@
     text-align: center;
 
 }
+.minicontainer2{
+    border-top:3px solid  lightblue;
+}
 .maintext{
 padding:1rem;
 }
@@ -75,6 +78,10 @@ padding:1rem;
     justify-content: center;
     margin: 0rem;
     text-align: center;
+}
+.minicontainer2{
+    margin-top: 1rem;
+    border-top:2px solid  lightblue;
 }
 .maintext{
 padding:0.3rem;
