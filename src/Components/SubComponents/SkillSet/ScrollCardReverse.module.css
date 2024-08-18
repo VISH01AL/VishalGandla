@@ -1,0 +1,96 @@
+
+
+
+
+
+
+
+@media (min-width: 1101px) {
+    .container{
+        display: flex;
+        overflow: hidden;
+    flex-direction: column;
+    height: 20rem;
+    width: 20rem;
+    background-color: var(--skillset-card-color);
+    color:var(--skillset-card-text);
+    border-radius: 1rem;
+    align-items: center;
+    }
+    .container:hover{
+        width: 25rem;
+    }
+    .container:hover .minicontainer1 {
+        animation-play-state: paused;
+    }
+    .container:hover .minicontainer2 {
+        animation-play-state: paused;
+    }
+    .minicontainer1,.minicontainer2{
+        animation: 15s slider linear infinite reverse;
+    }
+    
+    @keyframes slider {
+        from{
+            transform: translateY(0);
+        }
+        to{
+            transform: translateY(-100%);
+        }
+    }
+    .eachitem{
+        display: flex;
+        align-items: center;
+        box-sizing: border-box;
+        padding:0.5rem;
+    }
+    
+    .text{
+        margin-left: 1rem;
+    }
+    
+    .image{
+        width: 3rem; /* Adjust as needed */
+        height: 3rem; 
+        object-fit: cover;
+        background-color: white;
+        padding: 0.2rem;
+        box-sizing: border-box;
+        border-radius: 0.5rem;
+    }
+    }
+    
+    @media (max-width: 1100px) {
+        .container{
+            /* display: flex;
+            flex-direction: column; */
+            background-color: var(--skillset-card-color);
+            color:var(--skillset-card-text);
+            border-radius: 1rem;
+            align-items: center;
+            }
+            .eachitem{
+                display: flex;
+                align-items: center;
+                box-sizing: border-box;
+                padding:0.5rem;
+            }
+            
+            .text{
+                margin-left: 1rem;
+            }
+            
+            .image{
+                width: 3rem; /* Adjust as needed */
+                height: 3rem; 
+                object-fit: cover;
+                background-color: white;
+                padding: 0.2rem;
+                box-sizing: border-box;
+                border-radius: 0.5rem;
+            }
+       
+        .minicontainer2{
+            display: none;
+        }
+    }
