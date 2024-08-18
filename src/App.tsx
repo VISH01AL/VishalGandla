@@ -4,7 +4,7 @@ import Home from './Components/Core/Home'
 import AcademicLife from './Components/SubComponents/AcademicLife'
 import Career from './Components/SubComponents/Career'
 import Projects from './Components/SubComponents/Projects'
-import Contact from './Components/SubComponents/Contact'
+import About from './Components/SubComponents/About'
 import SkillSet from './Components/SubComponents/SkillSet'
 function App() {
   return (
@@ -14,7 +14,7 @@ function App() {
         <Route path="/career" element={<Career></Career>} ></Route>
         <Route path='/projects' element={<Projects></Projects>}></Route>
         <Route path='/skillset' element={<SkillSet></SkillSet>}></Route>
-        <Route path='/contact' element={<Contact></Contact>}></Route>
+        <Route path='/about' element={<About></About>}></Route>
       </Routes>
   )
 }
