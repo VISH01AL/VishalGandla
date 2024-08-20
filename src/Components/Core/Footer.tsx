@@ -7,7 +7,7 @@ import useTheme from '../hooks/theme/useTheme'
 const Footer = () => {
   const {theme}=useTheme()
   return (
-    <div className={`${Styles.container} ${Styles[`container_${theme}`]}`}>
+    <div className={`${Styles.container} ${Styles[`container_${theme}`]}`} >
       <a target="_blank" href='https://www.linkedin.com/in/vish1al/' className={Styles.mailtip}>   
          <img src={linkedinIcon} alt='linkedin icon' className={Styles.images} />    
          <a href='https://www.linkedin.com/in/vish1al/' target="_blank" className={Styles.mailtiptext}>Linkedin</a>
@@ -25,7 +25,7 @@ const Footer = () => {
           <img src={MailIcon} alt='mail icon' className={Styles.images} ></img>
           <div className={Styles.mailtiptext}>gandla.vish1al@gmail.com</div>
         </div>
-
+        
     </div>
   )
 }

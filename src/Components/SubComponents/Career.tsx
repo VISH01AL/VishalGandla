@@ -2,6 +2,7 @@ import Navbar from "../Core/Navbar";
 import Footer from "../Core/Footer";
 import WiproLogo from "../../images/career/Wipro Logo.png";
 import AmarajaLogo from "../../images/career/Amara raja Logo.png";
+import rightarrow from "../../images/right-arrow.svg";
 import Styles from "./Career.module.css";
 import useTheme from "../hooks/theme/useTheme";
 import { useState } from "react";
@@ -40,7 +41,7 @@ const Career = () => {
               <h2>Wipro Limited, Bangalore, India</h2>
               <h3>Software Engineer L3 (September 2020 – May 2023)</h3>
               <a href="https://www.wipro.com/" target="_blank">
-                <button className={`${Styles.outlinks} ${Styles[`button_${theme}`]}`}>Visit Wipro</button>
+                <button className={`${Styles.outlinks} ${Styles[`button_${theme}`]}`}>Visit Wipro </button>
               </a>
             </div>
           </div>

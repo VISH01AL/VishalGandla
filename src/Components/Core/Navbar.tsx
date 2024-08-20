@@ -2,12 +2,15 @@ import mainlogo from '../../images/mylogo.jpeg'
 import useTheme from '../hooks/theme/useTheme'
 import Styles from './Navbar.module.css'
 import { useLocation, useNavigate } from 'react-router-dom'
-import { useState } from 'react'
+import { useEffect, useState } from 'react'
 const Navbar = () => {
   const navigate=useNavigate();
   const location=useLocation()
   const {theme,setTheme}=useTheme()
   const [showmobilemenu,setShowMobileMenu]=useState(true)
+  useEffect(()=>{
+    console.log(showmobilemenu)
+  })
   return (
     <div className={`${Styles.container} ${Styles[`container_${theme}`]}`}>
         <div className={Styles.home} onClick={()=>{navigate("/")}}>

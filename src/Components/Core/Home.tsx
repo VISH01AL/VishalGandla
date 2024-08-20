@@ -6,7 +6,6 @@ import Footer from './Footer'
 import useTheme from '../hooks/theme/useTheme'
 const Home = () => {
   const { theme } = useTheme();
-  console.log(theme)
   return (
     <>
     <Navbar></Navbar>

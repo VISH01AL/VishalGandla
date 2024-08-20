@@ -63,6 +63,7 @@ padding:0rem 3rem 0rem 3rem;
     .container{
         padding:1rem;
     }
+    
     .container_theme1{
     background-color: var(--primary-theme1);
     color: var(--secondary-theme1);
