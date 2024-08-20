@@ -2,7 +2,6 @@ import Navbar from "../Core/Navbar";
 import Footer from "../Core/Footer";
 import WiproLogo from "../../images/career/Wipro Logo.png";
 import AmarajaLogo from "../../images/career/Amara raja Logo.png";
-import rightarrow from "../../images/right-arrow.svg";
 import Styles from "./Career.module.css";
 import useTheme from "../hooks/theme/useTheme";
 import { useState } from "react";
