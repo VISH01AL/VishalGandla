@@ -10,13 +10,14 @@ import Project2 from "./Project/Project2";
 import Project3 from "./Project/Project3";
 import Project4 from "./Project/Project4";
 import Project5 from "./Project/Project5";
-export type eventType=React.MouseEvent<HTMLDivElement, MouseEvent>
-export type functionType={updateNone:(e: eventType) => void}// Add to the Projects component
+import Project6 from "./Project/Project6";
+export type eventType = React.MouseEvent<HTMLDivElement, MouseEvent>;
+export type functionType = { updateNone: (e: eventType) => void }; // Add to the Projects component
 const Projects = () => {
   const { theme } = useTheme();
 
   const [selected, setSelected] = useState("none");
-  const updateNone = (e:eventType) => {
+  const updateNone = (e: eventType) => {
     e.stopPropagation();
     setSelected("none");
   };
@@ -51,26 +52,27 @@ const Projects = () => {
               <></>
             )}
           </div>
-
           <div
             className={Styles.project}
             onClick={() => {
-              setSelected("project2");
+              setSelected("project6");
             }}
           >
-            <div className={Styles.title}>HTTPS Download Accelerator</div>
+            <div className={Styles.title}>Movie Booking System</div>
             <ul className={Styles.technologies}>
-              <li>C Programming</li>
-              
+              <li>React.js</li>
+              <li>Amazon EC2</li>
+              <li>Amazon Route 53</li>
+              <li>Nginx</li>
             </ul>
-            {selected === "project2" ? (
-              <Project2 updateNone={updateNone}></Project2>
+            {selected === "project6" ? (
+              <Project6 updateNone={updateNone}></Project6>
             ) : (
               <></>
             )}
           </div>
-            </div>
-            <div className={Styles.projectContainer}>
+        </div>
+        <div className={Styles.projectContainer}>
           <div
             className={Styles.project}
             onClick={() => {
@@ -80,7 +82,6 @@ const Projects = () => {
             <div className={Styles.title}>TCP Traceroute Implementation</div>
             <ul className={Styles.technologies}>
               <li>Python</li>
-              
             </ul>
 
             {selected === "project3" ? (
@@ -107,8 +108,24 @@ const Projects = () => {
               <></>
             )}
           </div>
+        </div>
+        <div className={Styles.projectContainer}>
+          <div
+            className={Styles.project}
+            onClick={() => {
+              setSelected("project2");
+            }}
+          >
+            <div className={Styles.title}>HTTPS Download Accelerator</div>
+            <ul className={Styles.technologies}>
+              <li>C Programming</li>
+            </ul>
+            {selected === "project2" ? (
+              <Project2 updateNone={updateNone}></Project2>
+            ) : (
+              <></>
+            )}
           </div>
-          <div className={Styles.projectContainer}>
           <div
             className={Styles.project}
             onClick={() => {
@@ -120,7 +137,6 @@ const Projects = () => {
             </div>
             <ul className={Styles.technologies}>
               <li>C++</li>
-             
             </ul>
 
             {selected === "project4" ? (
@@ -129,7 +145,6 @@ const Projects = () => {
               <></>
             )}
           </div>
-          
         </div>
       </div>
       <Footer />
