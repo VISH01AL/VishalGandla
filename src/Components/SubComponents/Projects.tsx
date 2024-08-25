@@ -58,7 +58,7 @@ const Projects = () => {
               setSelected("project6");
             }}
           >
-            <div className={Styles.title}>Movie Booking System</div>
+            <div className={Styles.title}>Portfolio Website</div>
             <ul className={Styles.technologies}>
               <li>React.js</li>
               <li>Amazon EC2</li>

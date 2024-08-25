@@ -24,7 +24,7 @@ const Project6 = ({ updateNone }: functionType) => {
         Back to Projects
       </div>
       <div className={Styles.title}>Portfolio Website</div>
-      {/* <iframe width="560" height="315" src="https://www.youtube.com/embed/AC9kztyGn4M?si=Q81GlwiUjrc4Ajlx" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe> */}
+      <iframe width="560" height="315" src="https://www.youtube.com/embed/AC9kztyGn4M?si=Q81GlwiUjrc4Ajlx" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen className={Styles.iframe}></iframe>
       <ul className={Styles.list}>
         <div className={Styles.projectHighlights}>Project Highlights</div>
         <li className={Styles.description}>
@@ -51,7 +51,7 @@ const Project6 = ({ updateNone }: functionType) => {
         <li>Cross-platform Development</li>
       </ul>
       <a
-        href="https://github.com/YourGitHubUsername/YourPortfolioRepo"
+        href="https://github.com/VISH01AL/VishalGandla"
         className={Styles.projectLinkATag}
         target="_blank"
       >
