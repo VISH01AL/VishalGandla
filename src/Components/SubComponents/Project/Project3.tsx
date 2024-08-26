@@ -24,6 +24,7 @@ const Project3 = ({ updateNone }: functionType) => {
           Back to Projects
         </div>
         <div className={Styles.title}>TCP Traceroute Implementation</div>
+        <iframe width="560" height="315" src="https://www.youtube.com/embed/PmX3GIhep-k?si=HiwB1BrHYQoFNGFw" title="YouTube video player" frameBorder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerPolicy="strict-origin-when-cross-origin" allowFullScreen className={Styles.iframe}></iframe>
         <ul className={Styles.list}>
         <div className={Styles.projectHighlights}>Project Highlights</div>
           <li className={Styles.description}>
@@ -49,7 +50,7 @@ const Project3 = ({ updateNone }: functionType) => {
               <li>Raw Sockets (L3)</li>
               <li>TCP SYN Packets</li>
             </ul>
-        <a href="https://github.com/Projects-AT-UGA/ComputerNetworks-3" className={Styles.projectLinkATag} target="_blank"><button className={Styles.projectLink}>GitHub <img src={externalLink} alt="link" className={Styles.projectLinkExternal}></img></button></a>
+        <a href="https://github.com/Projects-AT-UGA/ComputerNetworks-4" className={Styles.projectLinkATag} target="_blank"><button className={Styles.projectLink}>GitHub <img src={externalLink} alt="link" className={Styles.projectLinkExternal}></img></button></a>
 
       </div>
     </div>

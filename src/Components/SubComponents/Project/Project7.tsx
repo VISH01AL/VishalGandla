@@ -3,7 +3,7 @@ import Styles from "./AllProject.module.css";
 import { functionType } from "../Projects";
 import externalLink from "../../../images/external-link.svg"
 
-const Project6 = ({ updateNone }: functionType) => {
+const Project7 = ({ updateNone }: functionType) => {
   const { theme } = useTheme();
 
   return (
@@ -28,26 +28,27 @@ const Project6 = ({ updateNone }: functionType) => {
       <ul className={Styles.list}>
         <div className={Styles.projectHighlights}>Project Highlights</div>
         <li className={Styles.description}>
-          I created a portfolio website using React.js, featuring a dynamic and interactive user experience.
+        I migrated my React.js portfolio website from an EC2 instance to AWS CloudFront to enhance load times and achieve greater efficiency.
+        </li>
+        
+        <li className={Styles.description}>
+          The site is cross-platform and was deployed on AWS CloudFront, enabling global content caching and faster load times.
         </li>
         <li className={Styles.description}>
-          The website utilizes the React.js Context library for efficient theme management, ensuring a consistent user experience across the platform.
+            Route 53 is used for efficient traffic routing traffic to CloudFront
         </li>
         <li className={Styles.description}>
-          The site is cross-platform and was hosted on an EC2 instance, connected with Route 53's Hostend zone to route traffic efficiently.
+          The static website is stored in an S3 bucket, which is accessed by CloudFront privately using an S3 bucket policy. .
         </li>
-        <li className={Styles.description}>
-          The EC2 instance is running Nginx, which serves the static content. I used Let's Encrypt's Certbot to install SSL certificates, enabling secure connections via TLS.
-        </li>
+        
       </ul>
       <div className={Styles.projectHighlights}>Technologies & Libraries</div>
       <ul className={Styles.technologies}>
         <li>React.js</li>
         <li>React Context API</li>
-        <li>Amazon EC2</li>
+        <li>Amazon S3</li>
+        <li>Amazon CloudFront</li>
         <li>Amazon Route 53</li>
-        <li>Nginx</li>
-        <li>Certbot For SSL certificate</li>
         <li>Cross-platform Development</li>
       </ul>
       <a
@@ -65,4 +66,4 @@ const Project6 = ({ updateNone }: functionType) => {
   );
 };
 
-export default Project6;
+export default Project7;

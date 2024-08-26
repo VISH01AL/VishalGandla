@@ -24,7 +24,7 @@ const Project5 = ({ updateNone }: functionType) => {
           Back to Projects
         </div>
         <div className={Styles.title}>Relational Algebra Implementation</div>
-        
+        <iframe width="560" height="315" src="https://www.youtube.com/embed/XRCJp0FWOIs?si=tTIkFnyZw1y9QUWi" title="YouTube video player" frameBorder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerPolicy="strict-origin-when-cross-origin" allowFullScreen className={Styles.iframe}></iframe>
         <ul className={Styles.list}>
         <div className={Styles.projectHighlights}>Project Highlights</div>
           <li className={Styles.description}>
