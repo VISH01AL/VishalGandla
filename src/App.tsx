@@ -1,5 +1,5 @@
 
-import { Routes,Route } from 'react-router-dom'
+import { Routes,Route,Navigate } from 'react-router-dom'
 import Home from './Components/Core/Home'
 import AcademicLife from './Components/SubComponents/AcademicLife'
 import Career from './Components/SubComponents/Career'
@@ -15,6 +15,7 @@ function App() {
         <Route path='/projects' element={<Projects></Projects>}></Route>
         <Route path='/skillset' element={<SkillSet></SkillSet>}></Route>
         <Route path='/about' element={<About></About>}></Route>
+        <Route path="*" element={<Navigate to="/" replace />} />
       </Routes>
   )
 }
