@@ -17,7 +17,8 @@ import Project9 from "./Project/Project9";
 import Project10 from "./Project/Project10";
 import Project11 from "./Project/Project11";
 import Project12 from "./Project/Project12";
-
+import Project13 from "./Project/Project13";
+import Project14 from "./Project/Project14";
 
 export type eventType = React.MouseEvent<HTMLDivElement, MouseEvent>;
 export type functionType = { updateNone: (e: eventType) => void }; // Add to the Projects component
@@ -54,6 +55,7 @@ const Projects = () => {
               <li>ExpressJS</li>
               <li>JavaScript</li>
               <li>PostgreSQL</li>
+              <li>REST API</li>
             </ul>
             {selected === "project1" ? (
               <Project1 updateNone={updateNone}></Project1>
@@ -110,7 +112,6 @@ const Projects = () => {
             )}
           </div>
 
-
           <div
             className={Styles.project}
             onClick={() => {
@@ -132,6 +133,50 @@ const Projects = () => {
           </div>
         </div>
 
+        <div className={Styles.projectContainer}>
+          <div
+            className={Styles.project}
+            onClick={() => {
+              setSelected("project13");
+            }}
+          >
+            <div className={Styles.title}>Todo List App</div>
+            <ul className={Styles.technologies}>
+              <li>ReactJs</li>
+              <li>NodeJs</li>
+              <li>ExpressJs</li>
+              <li>MongoDB</li>
+              <li>REST API</li>
+            </ul>
+
+            {selected === "project13" ? (
+              <Project13 updateNone={updateNone}></Project13>
+            ) : (
+              <></>
+            )}
+          </div>
+          <div
+            className={Styles.project}
+            onClick={() => {
+              setSelected("project14");
+            }}
+          >
+            <div className={Styles.title}>
+              Frontend Mentor Challenges - Responsive Web Pages
+            </div>
+            <ul className={Styles.technologies}>
+              <li>ReactJs</li>
+              <li>CSS Modules</li>
+              <li>Responsive Design</li>
+            </ul>
+
+            {selected === "project14" ? (
+              <Project14 updateNone={updateNone}></Project14>
+            ) : (
+              <></>
+            )}
+          </div>
+        </div>
 
         <div className={Styles.projectContainer}>
           <div
@@ -140,9 +185,7 @@ const Projects = () => {
               setSelected("project11");
             }}
           >
-            <div className={Styles.title}>
-              The Nature of Code
-            </div>
+            <div className={Styles.title}>The Nature of Code</div>
             <ul className={Styles.technologies}>
               <li>HTML</li>
               <li>CSS</li>
@@ -156,7 +199,6 @@ const Projects = () => {
               <></>
             )}
           </div>
-
 
           <div
             className={Styles.project}
@@ -178,21 +220,6 @@ const Projects = () => {
             )}
           </div>
         </div>
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-        
 
         <div className={Styles.header}>Console Applications</div>
 
@@ -236,8 +263,6 @@ const Projects = () => {
         </div>
 
         <div className={Styles.projectContainer}>
-          
-
           <div
             className={Styles.project}
             onClick={() => {
@@ -272,13 +297,8 @@ const Projects = () => {
               <></>
             )}
           </div>
-         
         </div>
         <div className={Styles.projectContainer}>
-
-
-        
-
           <div
             className={Styles.project}
             onClick={() => {
@@ -316,9 +336,6 @@ const Projects = () => {
               <></>
             )}
           </div>
-          
-         
-
         </div>
       </div>
       <Footer />

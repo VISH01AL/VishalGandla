@@ -5,8 +5,10 @@
     --primary-theme2:black;
     --secondary-theme2: white;
 
-    --primary-theme3: #00203FFF;
-    --secondary-theme3: #ADEFD1FF;
+    --primary-theme3: #F2AA4C;
+    --secondary-theme3: #101820;
+
+
     --button-hover:lightblue;
     --button-hover-text:black;
     --color-menu:aquamarine   ;
@@ -29,7 +31,6 @@
     --hovered-project-color-text:black;
     --project-technologies:black;
     --project-technologies-text:white;
-    
 
 }
 
