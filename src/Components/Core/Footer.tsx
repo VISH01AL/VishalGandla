@@ -1,5 +1,4 @@
 import Styles from './Footer.module.css'
-import MailIcon from '../../images/mailicon.png'
 import linkedinIcon from '../../images/linkedinicon.png'
 import githubIcon from '../../images/githubicon.png'
 import geeksforgeeksIcon from '../../images/geeksforgeeksicon.png'
@@ -21,10 +20,7 @@ const Footer = () => {
         <a href='https://www.geeksforgeeks.org/user/vishalg1' target="_blank" className={Styles.mailtiptext}>geeks for geeks</a>
       </a>
       
-        <div className={Styles.mailtip}>
-          <img src={MailIcon} alt='mail icon' className={Styles.images} ></img>
-          <div className={Styles.mailtiptext}>gandla.vish1al@gmail.com</div>
-        </div>
+       
         
     </div>
   )

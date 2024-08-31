@@ -42,8 +42,11 @@ const Project6 = ({ updateNone }: functionType) => {
       </ul>
       <div className={Styles.projectHighlights}>Technologies & Libraries</div>
       <ul className={Styles.technologies}>
-        <li>React.js</li>
+        <li>ReactJs</li>
         <li>React Context API</li>
+
+        <li>React Hooks</li>
+        <li>TypeScript</li>
         <li>Amazon EC2</li>
         <li>Amazon Route 53</li>
         <li>Nginx</li>

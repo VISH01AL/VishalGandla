@@ -17,9 +17,9 @@ const About = () => {
           <ul className={Styles.list}>
             <li>
               Email:{" "}
-              <a href="mailto:gandla.vish1al@gmail.com">
-                gandla.vish1al@gmail.com
-              </a>
+              <span >
+                 &nbsp;g.vish1al@gmail.com
+              </span>
             </li>
             <li>
               LinkedIn:{" "}

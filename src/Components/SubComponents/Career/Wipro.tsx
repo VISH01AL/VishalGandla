@@ -16,10 +16,10 @@ const Wipro = () => {
         ></img>
         <ul className={Styles.list}>
           <li>
-            Led a migration project to move C, Bash, and Perl code from an
-            on-premises Solaris server to Azure Cloud Red Hat Enterprise Linux,
-            aiming to enhance server performance, reliability, and speed for a
-            banking client.
+          Led a migration project to move C, Bash, and Perl code from an on-premises 
+          Solaris server to Azure Cloud Red Hat Enterprise Linux for UBS (Union Bank of Switzerland), 
+          one of the largest investment banks. The project aimed to enhance server performance,
+          reliability, and speed for the banking client.
           </li>
           <li>
             Compiled and optimized C code using make files, resolving

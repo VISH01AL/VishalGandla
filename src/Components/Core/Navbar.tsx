@@ -29,8 +29,9 @@ const Navbar = () => {
 
             <div className={ `${ showmobilemenu ? `${Styles.mobilecontainershow} ${Styles[`mobilecontainershow_${theme}`]}` : `${Styles.mobilecontainernone} ${Styles[`mobilecontainernone_${theme}`]}` } `}>
             <div onClick={()=>{navigate("/career")}}        className={`${Styles.navitems} ${Styles.career}  ${location.pathname==="/career" ? `${Styles.selectednav}`: ""}`}>Career</div>
+            <div onClick={()=>{navigate("/projects")}}      className={`${Styles.navitems} ${Styles.projects}  ${location.pathname==="/projects" ? `${Styles.selectednav}`: ""}`}>Projects</div>
+
               <div onClick={()=>{navigate("/academiclife")}}  className={`${Styles.navitems} ${Styles.academiclife}  ${location.pathname==="/academiclife" ? `${Styles.selectednav}`: ""}`}>Academic Life</div>
-                <div onClick={()=>{navigate("/projects")}}      className={`${Styles.navitems} ${Styles.projects}  ${location.pathname==="/projects" ? `${Styles.selectednav}`: ""}`}>Projects</div>
                 <div onClick={()=>{navigate("/skillset")}}         className={`${Styles.navitems} ${Styles.about}  ${location.pathname==="/skillset" ? `${Styles.selectednav}`: ""}`}>Skillset</div>
                 <div onClick={()=>{navigate("/about")}}       className={`${Styles.navitems} ${Styles.contact}  ${location.pathname==="/about" ? `${Styles.selectednav}`: ""}`}>About</div>
                 <div className={Styles.theme}>
@@ -44,8 +45,9 @@ const Navbar = () => {
         
         <div className={Styles.list}>
             <div onClick={()=>{navigate("/career")}}        className={`${Styles.navitems} ${Styles.career}  ${location.pathname==="/career" ? `${Styles.selectednav}`: ""}`}>Career</div>
-            <div onClick={()=>{navigate("/academiclife")}}  className={`${Styles.navitems} ${Styles.academiclife}  ${location.pathname==="/academiclife" ? `${Styles.selectednav}`: ""}`}>Academic Life</div>
             <div onClick={()=>{navigate("/projects")}}      className={`${Styles.navitems} ${Styles.projects}  ${location.pathname==="/projects" ? `${Styles.selectednav}`: ""}`}>Projects</div>
+
+            <div onClick={()=>{navigate("/academiclife")}}  className={`${Styles.navitems} ${Styles.academiclife}  ${location.pathname==="/academiclife" ? `${Styles.selectednav}`: ""}`}>Academic Life</div>
             <div onClick={()=>{navigate("/skillset")}}         className={`${Styles.navitems} ${Styles.about}  ${location.pathname==="/skillset" ? `${Styles.selectednav}`: ""}`}>Skillset</div>
             <div onClick={()=>{navigate("/about")}}       className={`${Styles.navitems} ${Styles.contact}  ${location.pathname==="/about" ? `${Styles.selectednav}`: ""}`}>About</div>
             <div className={Styles.theme}>

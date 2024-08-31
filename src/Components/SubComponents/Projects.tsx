@@ -14,6 +14,9 @@ import Project6 from "./Project/Project6";
 import Project7 from "./Project/Project7";
 import Project8 from "./Project/Project8";
 import Project9 from "./Project/Project9";
+import Project10 from "./Project/Project10";
+import Project11 from "./Project/Project11";
+import Project12 from "./Project/Project12";
 
 
 export type eventType = React.MouseEvent<HTMLDivElement, MouseEvent>;
@@ -37,7 +40,7 @@ const Projects = () => {
     <>
       <Navbar />
       <div className={`${Styles.container} ${Styles[`container_${theme}`]}`}>
-        <div className={Styles.header}>My Projects</div>
+        <div className={Styles.header}>Web Development Projects</div>
         <div className={Styles.projectContainer}>
           <div
             className={Styles.project}
@@ -49,6 +52,7 @@ const Projects = () => {
             <ul className={Styles.technologies}>
               <li>ReactJS</li>
               <li>ExpressJS</li>
+              <li>JavaScript</li>
               <li>PostgreSQL</li>
             </ul>
             {selected === "project1" ? (
@@ -64,11 +68,12 @@ const Projects = () => {
             }}
           >
             <div className={Styles.title}>
-              Portfolio Website Deployment on EC2
+              Portfolio Website Deployment on AWS EC2
             </div>
             <ul className={Styles.technologies}>
-              <li>React.js</li>
-              <li>Amazon EC2</li>
+              <li>ReactJs</li>
+              <li>TypeScript</li>
+              <li>Amazon AWS EC2</li>
               <li>Amazon Route 53</li>
               <li>Nginx</li>
             </ul>
@@ -88,10 +93,11 @@ const Projects = () => {
             }}
           >
             <div className={Styles.title}>
-              Portfolio Website Deployment on CloudFront
+              Portfolio Website Deployment on AWS CloudFront
             </div>
             <ul className={Styles.technologies}>
-              <li>React.js</li>
+              <li>ReactJs</li>
+              <li>TypeScript</li>
               <li>Amazon S3</li>
               <li>Amazon CloudFront</li>
               <li>Amazon Route 53</li>
@@ -103,23 +109,93 @@ const Projects = () => {
               <></>
             )}
           </div>
+
+
           <div
             className={Styles.project}
             onClick={() => {
-              setSelected("project2");
+              setSelected("project10");
             }}
           >
-            <div className={Styles.title}>HTTPS Download Accelerator</div>
+            <div className={Styles.title}>Cafe Management System</div>
             <ul className={Styles.technologies}>
-              <li>C Programming</li>
+              <li>Python</li>
+              <li>Django</li>
+              <li>PostgreSQL</li>
             </ul>
-            {selected === "project2" ? (
-              <Project2 updateNone={updateNone}></Project2>
+
+            {selected === "project10" ? (
+              <Project10 updateNone={updateNone}></Project10>
             ) : (
               <></>
             )}
           </div>
         </div>
+
+
+        <div className={Styles.projectContainer}>
+          <div
+            className={Styles.project}
+            onClick={() => {
+              setSelected("project11");
+            }}
+          >
+            <div className={Styles.title}>
+              The Nature of Code
+            </div>
+            <ul className={Styles.technologies}>
+              <li>HTML</li>
+              <li>CSS</li>
+              <li>JavaScript</li>
+              <li>Canvas</li>
+            </ul>
+
+            {selected === "project11" ? (
+              <Project11 updateNone={updateNone}></Project11>
+            ) : (
+              <></>
+            )}
+          </div>
+
+
+          <div
+            className={Styles.project}
+            onClick={() => {
+              setSelected("project12");
+            }}
+          >
+            <div className={Styles.title}>Front-End Foundations</div>
+            <ul className={Styles.technologies}>
+              <li>HTML</li>
+              <li>CSS</li>
+              <li>JavaScript</li>
+            </ul>
+
+            {selected === "project12" ? (
+              <Project12 updateNone={updateNone}></Project12>
+            ) : (
+              <></>
+            )}
+          </div>
+        </div>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+        
+
+        <div className={Styles.header}>Console Applications</div>
+
         <div className={Styles.projectContainer}>
           <div
             className={Styles.project}
@@ -158,7 +234,27 @@ const Projects = () => {
             )}
           </div>
         </div>
+
         <div className={Styles.projectContainer}>
+          
+
+          <div
+            className={Styles.project}
+            onClick={() => {
+              setSelected("project2");
+            }}
+          >
+            <div className={Styles.title}>HTTPS Download Accelerator</div>
+            <ul className={Styles.technologies}>
+              <li>C Programming</li>
+            </ul>
+            {selected === "project2" ? (
+              <Project2 updateNone={updateNone}></Project2>
+            ) : (
+              <></>
+            )}
+          </div>
+
           <div
             className={Styles.project}
             onClick={() => {
@@ -176,6 +272,13 @@ const Projects = () => {
               <></>
             )}
           </div>
+         
+        </div>
+        <div className={Styles.projectContainer}>
+
+
+        
+
           <div
             className={Styles.project}
             onClick={() => {
@@ -193,9 +296,6 @@ const Projects = () => {
               <></>
             )}
           </div>
-          
-        </div>
-        <div className={Styles.projectContainer}>
           <div
             className={Styles.project}
             onClick={() => {
@@ -207,6 +307,7 @@ const Projects = () => {
             </div>
             <ul className={Styles.technologies}>
               <li>C++</li>
+              <li>IoT</li>
             </ul>
 
             {selected === "project4" ? (
@@ -215,6 +316,9 @@ const Projects = () => {
               <></>
             )}
           </div>
+          
+         
+
         </div>
       </div>
       <Footer />

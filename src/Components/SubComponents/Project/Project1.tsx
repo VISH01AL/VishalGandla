@@ -58,7 +58,9 @@ const Project1 = ({ updateNone }: functionType) => {
         <div className={Styles.projectHighlights}>Technologies & Libraries</div>
         <ul className={Styles.technologies}>
               <li>ReactJS</li>
+              <li>React Hooks</li>
               <li>ExpressJS</li>
+              <li>Javascript</li>
               <li>Sequelize ORM</li>
               <li>PostgreSQL</li>
               <li>React-Router-Dom</li>
