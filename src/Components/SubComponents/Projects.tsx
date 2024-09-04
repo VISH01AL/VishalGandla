@@ -19,6 +19,7 @@ import Project11 from "./Project/Project11";
 import Project12 from "./Project/Project12";
 import Project13 from "./Project/Project13";
 import Project14 from "./Project/Project14";
+import Project15 from "./Project/Project15";
 
 export type eventType = React.MouseEvent<HTMLDivElement, MouseEvent>;
 export type functionType = { updateNone: (e: eventType) => void }; // Add to the Projects component
@@ -75,7 +76,7 @@ const Projects = () => {
             <ul className={Styles.technologies}>
               <li>ReactJs</li>
               <li>TypeScript</li>
-              <li>Amazon AWS EC2</li>
+              <li>Amazon EC2</li>
               <li>Amazon Route 53</li>
               <li>Nginx</li>
             </ul>
@@ -111,7 +112,33 @@ const Projects = () => {
               <></>
             )}
           </div>
+          <div
+            className={Styles.project}
+            onClick={() => {
+              setSelected("project15");
+            }}
+          >
+            <div className={Styles.title}>
+            Containerized React App Deployment to Cloud
+            </div>
+            <ul className={Styles.technologies}>
+              <li>ReactJs</li>
+              <li>Docker</li>
+              <li>Amazon Elastic Container Registry</li>
+              <li>Amazon IAM</li>
+            </ul>
 
+            {selected === "project15" ? (
+              <Project15 updateNone={updateNone}></Project15>
+            ) : (
+              <></>
+            )}
+          </div>
+        </div>
+
+
+
+        <div className={Styles.projectContainer}>
           <div
             className={Styles.project}
             onClick={() => {
@@ -131,8 +158,27 @@ const Projects = () => {
               <></>
             )}
           </div>
-        </div>
+          <div
+            className={Styles.project}
+            onClick={() => {
+              setSelected("project11");
+            }}
+          >
+            <div className={Styles.title}>The Nature of Code</div>
+            <ul className={Styles.technologies}>
+              <li>HTML</li>
+              <li>CSS</li>
+              <li>JavaScript</li>
+              <li>Canvas</li>
+            </ul>
 
+            {selected === "project11" ? (
+              <Project11 updateNone={updateNone}></Project11>
+            ) : (
+              <></>
+            )}
+          </div>
+        </div>
         <div className={Styles.projectContainer}>
           <div
             className={Styles.project}
@@ -179,26 +225,7 @@ const Projects = () => {
         </div>
 
         <div className={Styles.projectContainer}>
-          <div
-            className={Styles.project}
-            onClick={() => {
-              setSelected("project11");
-            }}
-          >
-            <div className={Styles.title}>The Nature of Code</div>
-            <ul className={Styles.technologies}>
-              <li>HTML</li>
-              <li>CSS</li>
-              <li>JavaScript</li>
-              <li>Canvas</li>
-            </ul>
-
-            {selected === "project11" ? (
-              <Project11 updateNone={updateNone}></Project11>
-            ) : (
-              <></>
-            )}
-          </div>
+          
 
           <div
             className={Styles.project}

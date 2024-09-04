@@ -75,6 +75,9 @@
     padding: 0.3rem;
     /* background-color: red; */
   }
+  .outlinkATags{
+    text-decoration: none;
+  }
   .outlinks {
     display: flex;
     padding: 1rem;
@@ -198,7 +201,9 @@
     border-radius: 0.5rem;
     cursor:alias;
   }
-
+  .outlinkATags{
+    text-decoration: none;
+  }
   .button_theme1 {
     background-color: var(--primary-theme1);
     color: var(--secondary-theme1);

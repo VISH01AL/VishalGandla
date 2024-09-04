@@ -39,7 +39,7 @@ const Career = () => {
             >
               <h2>Wipro Limited, Bangalore, India</h2>
               <h3>Software Engineer L3 (September 2020 – May 2023)</h3>
-              <a href="https://www.wipro.com/" target="_blank">
+              <a href="https://www.wipro.com/" target="_blank" className={Styles.outlinkATags}>
                 <button className={`${Styles.outlinks} ${Styles[`button_${theme}`]}`}>Visit Wipro </button>
               </a>
             </div>
@@ -67,7 +67,7 @@ const Career = () => {
             >
               <h2>Amara Raja Batteries, Tirupati, India</h2>
               <h3>Intern (May 2019 – June 2019)</h3>
-              <a href="https://www.amararaja.com/" target="_blank">
+              <a href="https://www.amararaja.com/" target="_blank" className={Styles.outlinkATags}>
                 <button  className={`${Styles.outlinks} ${Styles[`button_${theme}`]}`}>Visit Amaraja</button>
               </a>
             </div>

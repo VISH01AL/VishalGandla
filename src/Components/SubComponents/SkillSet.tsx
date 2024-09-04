@@ -27,6 +27,7 @@ import djangoIcon from "../../images/skillset/django.svg";
 import springBootIcon from "../../images/skillset/spring.svg";
 import sequelizeIcon from "../../images/skillset/sequelize.svg";
 
+import dockerIcon from "../../images/skillset/docker.svg";
 import gitIcon from "../../images/skillset/git.svg";
 import gitlabIcon from "../../images/skillset/gitlab.svg";
 import githubIcon from "../../images/skillset/github.svg";
@@ -83,6 +84,7 @@ const SkillSet = () => {
 
   // Software/Developer Platforms Array
   const softwarePlatforms = [
+    {name:"Docker",icon: dockerIcon},
     { name: "Git", icon: gitIcon },
     { name: "GitLab", icon: gitlabIcon },
     { name: "GitHub", icon: githubIcon },
