@@ -59,9 +59,9 @@ const Wipro = () => {
             project at Wipro Technologies.
           </li>
           <li>
-            Integrated Tags from Google Tag Manager into the website for
-            enhanced data collection.
-          </li>
+          I integrated Google Tag Manager tags into a test mock-up for Huawei's future website to enhance data 
+          collection for their information and communications technology services.
+        </li>
           <li>
             Utilized Google Tag Manager to create variables, tags, and triggers
             for effective user data gathering.
