@@ -17,7 +17,7 @@ const Project16 = ({ updateNone }: functionType) => {
           Back to Projects
         </div>
         <div className={Styles.title}>Deploying Full-Stack Todo List Application on AWS Cloud</div>
-       
+        <iframe width="560" height="315" src="https://www.youtube.com/embed/KUEOWEUFJeA?si=P_zPJWs-PUGfn7K1" title="YouTube video player" frameBorder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerPolicy="strict-origin-when-cross-origin" allowFullScreen className={Styles.iframe}></iframe>
         <ul className={Styles.list}>
           <div className={Styles.projectHighlights}>Project Highlights</div>
           <li className={Styles.description}>

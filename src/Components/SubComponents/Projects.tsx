@@ -104,6 +104,7 @@ const Projects = () => {
               <li>Amazon S3</li>
               <li>Amazon CloudFront</li>
               <li>Amazon Route 53</li>
+              <li>Amazon IAM</li>
             </ul>
 
             {selected === "project7" ? (

@@ -39,10 +39,11 @@ const About = () => {
           <li>
               <h3 className={Styles.subText}>Interests</h3>
               <ul className={Styles.list}>
+                <li>I really enjoy listening to music.</li>
                 <li>Passionate about playing badminton.</li>
-                <li>Enthusiastic chess player.</li>
                 <li>Dedicated to fitness and working out.</li>
-                <li>Active participant in cricket.</li>
+                <li>love playing in cricket .</li>
+                <li>Enthusiastic chess player.</li>
               </ul>
             </li>
             <li>
