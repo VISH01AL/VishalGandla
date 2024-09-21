@@ -39,6 +39,8 @@ const About = () => {
           <li>
               <h3 className={Styles.subText}>Interests</h3>
               <ul className={Styles.list}>
+                <li>I love to dive in, whether it's a pool, river, or beach – if there's water, I'm there!</li>
+                <li>I’m all about making memories with friends and family on vacation – nothing beats good vibes, great company, and a little adventure!</li>
                 <li>I really enjoy listening to music.</li>
                 <li>Passionate about playing badminton.</li>
                 <li>Dedicated to fitness and working out.</li>
