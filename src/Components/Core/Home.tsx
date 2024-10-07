@@ -16,7 +16,7 @@ const Home = () => {
               <div className={Styles.microcontainer2}>
                 <div className={Styles.maintextcontainer}>
                   <div className={Styles.maintext}>Software Developer </div>
-                  <div className={Styles.maintext}> Full-Stack Developer | Cloud Engineer  {/* | Software Architect */}</div> 
+                  <div className={Styles.maintext}> Full-Stack Developer | DevOps Engineer | Cloud Native Engineer{/* | Software Architect */}</div> 
                 </div>
                 
                 <div className={Styles.sidetext}>
