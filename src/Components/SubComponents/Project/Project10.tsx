@@ -40,6 +40,9 @@ const Project10 = ({ updateNone }: functionType) => {
         <ul className={Styles.list}>
           <div className={Styles.projectHighlights}>Project Highlights</div>
           <li className={Styles.description}>
+          Engineered a feature-rich Cafe Management system for supporting clerks to process orders.
+          </li>
+          <li className={Styles.description}>
             We designed Schema 1 using a UML Class Diagram that included 7
             tables, capturing the essential entities and relationships for the
             Cafe Management System.

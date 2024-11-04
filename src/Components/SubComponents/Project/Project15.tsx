@@ -17,7 +17,7 @@ const Project15 = ({updateNone}:functionType) => {
         }}
         className={Styles.backToProject}
         >Back to Projects</div>
-        <div className={Styles.title}>Containerized React App Deployment to Cloud</div>
+        <div className={Styles.title}>Containerized React App Deployment to AWS Elastic Compute Cloud</div>
         <iframe width="560" height="315" src="https://www.youtube.com/embed/VUZK2wzfRNA?si=Gk6YKD-K3lK0S7JR" title="YouTube video player" frameBorder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerPolicy="strict-origin-when-cross-origin" allowFullScreen className={Styles.iframe}></iframe>
         <ul className={Styles.list}>
         <div className={Styles.projectHighlights}>Project Highlights</div>
