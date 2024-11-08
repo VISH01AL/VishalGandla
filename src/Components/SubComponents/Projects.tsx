@@ -47,32 +47,31 @@ const Projects = () => {
     <>
       <Navbar />
       <div className={`${Styles.container} ${Styles[`container_${theme}`]}`}>
-        <div className={Styles.header}>Web Development and Machine Learning Projects</div>
-        <div className={Styles.projectContainer}>
-          
-                <div
-          className={Styles.project}
-          onClick={() => {
-            setSelected("project17");
-          }}
-        >
-          <div className={Styles.title}>Full-Stack Application Development and Deployment to Kubernetes</div>
-          <ul className={Styles.technologies}>
-            <li>Spring Boot</li>
-            <li>AngularJS</li>
-            <li>MySQL</li>
-            <li>Docker</li>
-            <li>Azure Kubernetes Service</li>
-            <li>Amazon Route 53</li>
-          </ul>
-          {selected === "project17" ? (
-            <Project17 updateNone={updateNone}></Project17>
-          ) : (
-            <></>
-          )}
+        <div className={Styles.header}>
+          Web Development and Machine Learning Projects
         </div>
-
-
+        <div className={Styles.projectContainer}>
+          <div
+            className={Styles.project}
+            onClick={() => {
+              setSelected("project17");
+            }}
+          >
+            <div className={Styles.title}>Dining App </div>
+            <ul className={Styles.technologies}>
+              <li>Spring Boot</li>
+              <li>AngularJS</li>
+              <li>MySQL</li>
+              <li>Docker</li>
+              <li>Azure Kubernetes Service</li>
+              <li>Amazon Route 53</li>
+            </ul>
+            {selected === "project17" ? (
+              <Project17 updateNone={updateNone}></Project17>
+            ) : (
+              <></>
+            )}
+          </div>
 
           <div
             className={Styles.project}
@@ -80,14 +79,13 @@ const Projects = () => {
               setSelected("project16");
             }}
           >
-            <div className={Styles.title}>Full-Stack Application Development and Deployment to AWS Elastic Compute Cloud</div>
+            <div className={Styles.title}>Todo List App </div>
             <ul className={Styles.technologies}>
               <li>ReactJs</li>
               <li>ExpressJs</li>
               <li>MongoDB</li>
               <li>AWS EC2</li>
               <li>Amazon Route 53</li>
-
             </ul>
             {selected === "project16" ? (
               <Project16 updateNone={updateNone}></Project16>
@@ -97,48 +95,40 @@ const Projects = () => {
           </div>
         </div>
 
-
-        
-
-
-
         <div className={Styles.projectContainer}>
-        <div
-        className={Styles.project}
-        onClick={() => {
-          setSelected("project20");
-        }}
-      >
-        <div className={Styles.title}>
-          CIFAR-10 Image Classification using Convolutional Neural Networks (CNN)
-        </div>
-        <ul className={Styles.technologies}>
-          <li>Python</li>
-          <li>PyTorch</li>
-          <li>CIFAR-10 Dataset</li>
-          <li>THOP</li>
-          <li>NumPy</li>
-          <li>Matplotlib</li>
-        </ul>
+          <div
+            className={Styles.project}
+            onClick={() => {
+              setSelected("project20");
+            }}
+          >
+            <div className={Styles.title}>
+              CIFAR-10 Image Classification using Convolutional Neural Networks
+              (CNN)
+            </div>
+            <ul className={Styles.technologies}>
+              <li>Python</li>
+              <li>PyTorch</li>
+              <li>CIFAR-10 Dataset</li>
+              <li>THOP</li>
+              <li>NumPy</li>
+              <li>Matplotlib</li>
+            </ul>
 
-        {selected === "project20" ? (
-          <Project20 updateNone={updateNone} />
-        ) : (
-          <></>
-        )}
-      </div>
+            {selected === "project20" ? (
+              <Project20 updateNone={updateNone} />
+            ) : (
+              <></>
+            )}
+          </div>
 
-
-
-        <div
+          <div
             className={Styles.project}
             onClick={() => {
               setSelected("project7");
             }}
           >
-            <div className={Styles.title}>
-              Portfolio Website Deployment on AWS CloudFront
-            </div>
+            <div className={Styles.title}>Portfolio Website</div>
             <ul className={Styles.technologies}>
               <li>ReactJs</li>
               <li>TypeScript</li>
@@ -154,69 +144,9 @@ const Projects = () => {
               <></>
             )}
           </div>
-          
         </div>
 
-
-
-
         <div className={Styles.projectContainer}>
-
-
-        <div
-          className={Styles.project}
-          onClick={() => {
-            setSelected("project19");
-          }}
-        >
-          <div className={Styles.title}>
-            ReactJS Application Deployment on Azure Kubernetes Service (AKS)
-          </div>
-          <ul className={Styles.technologies}>
-            <li>ReactJS</li>
-            <li>TypeScript</li>
-            <li>Azure Kubernetes Service</li>            
-            <li>Amazon Route 53</li>
-          </ul>
-
-          {selected === "project19" ? (
-            <Project19 updateNone={updateNone}></Project19>
-          ) : (
-            <></>
-          )}
-        </div>
-            <div
-              className={Styles.project}
-              onClick={() => {
-                setSelected("project18");
-              }}
-            >
-              <div className={Styles.title}>
-              Full-Stack Application Development and Local Deployment on Minikube
-              </div>
-              <ul className={Styles.technologies}>
-                <li>Spring Boot</li>
-                <li>Angular</li>
-                <li>TypeScript</li>
-                <li>MySQL</li>
-                <li>Docker</li>
-                <li>Kubernetes</li>
-                <li>Minikube</li>
-              </ul>
-
-              {selected === "project18" ? (
-                <Project18 updateNone={updateNone}></Project18>
-              ) : (
-                <></>
-              )}
-            </div>
-          </div>
-
-
-
-
-        <div className={Styles.projectContainer}>
-
           <div
             className={Styles.project}
             onClick={() => {
@@ -237,36 +167,77 @@ const Projects = () => {
               <></>
             )}
           </div>
-              
-
           <div
             className={Styles.project}
             onClick={() => {
-              setSelected("project15");
+              setSelected("project10");
             }}
           >
-            <div className={Styles.title}>
-              Containerized React App Deployment to AWS Elastic Compute Cloud
-            </div>
+            <div className={Styles.title}>Cafe Management System</div>
             <ul className={Styles.technologies}>
-              <li>ReactJs</li>
-              <li>Docker</li>
-              <li>Amazon Elastic Container Registry</li>
-              <li>Amazon IAM</li>
+              <li>Python</li>
+              <li>Django</li>
+              <li>PostgreSQL</li>
             </ul>
 
-            {selected === "project15" ? (
-              <Project15 updateNone={updateNone}></Project15>
+            {selected === "project10" ? (
+              <Project10 updateNone={updateNone}></Project10>
             ) : (
               <></>
             )}
           </div>
         </div>
 
+        <div className={Styles.projectContainer}>
+          <div
+            className={Styles.project}
+            onClick={() => {
+              setSelected("project19");
+            }}
+          >
+            <div className={Styles.title}>Gratitude Message Generator</div>
+            <ul className={Styles.technologies}>
+              <li>ReactJS</li>
+              <li>TypeScript</li>
+              <li>Azure Kubernetes Service</li>
+              <li>Amazon Route 53</li>
+            </ul>
 
+            {selected === "project19" ? (
+              <Project19 updateNone={updateNone}></Project19>
+            ) : (
+              <></>
+            )}
+          </div>
+          <div
+            className={Styles.project}
+            onClick={() => {
+              setSelected("project18");
+            }}
+          >
+            <div className={Styles.title}>
+              Dining App Development and Local Deployment on Minikube
+            </div>
+            <ul className={Styles.technologies}>
+              <li>Spring Boot</li>
+              <li>Angular</li>
+              <li>TypeScript</li>
+              <li>MySQL</li>
+              <li>Docker</li>
+              <li>Kubernetes</li>
+              <li>Minikube</li>
+            </ul>
+
+            {selected === "project18" ? (
+              <Project18 updateNone={updateNone}></Project18>
+            ) : (
+              <></>
+            )}
+          </div>
+        </div>
 
         <div className={Styles.projectContainer}>
-        <div
+          <div
             className={Styles.project}
             onClick={() => {
               setSelected("project6");
@@ -291,18 +262,21 @@ const Projects = () => {
           <div
             className={Styles.project}
             onClick={() => {
-              setSelected("project10");
+              setSelected("project15");
             }}
           >
-            <div className={Styles.title}>Cafe Management System</div>
+            <div className={Styles.title}>
+              Containerized React App on AWS EC2
+            </div>
             <ul className={Styles.technologies}>
-              <li>Python</li>
-              <li>Django</li>
-              <li>PostgreSQL</li>
+              <li>ReactJs</li>
+              <li>Docker</li>
+              <li>Amazon Elastic Container Registry</li>
+              <li>Amazon IAM</li>
             </ul>
 
-            {selected === "project10" ? (
-              <Project10 updateNone={updateNone}></Project10>
+            {selected === "project15" ? (
+              <Project15 updateNone={updateNone}></Project15>
             ) : (
               <></>
             )}

@@ -23,7 +23,7 @@ const Project17 = ({ updateNone }: functionType) => {
         >
           Back to Projects
         </div>
-        <div className={Styles.title}>Full-Stack Application Development and Deployment to Kubernetes</div>
+        <div className={Styles.title}>Dining App Development and Deployment to Kubernetes</div>
         
         <iframe width="560" height="315" src="https://www.youtube.com/embed/YOioJLySzPk?si=zpX7QxPDhZZ9e2Nv" title="YouTube video player" frameBorder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerPolicy="strict-origin-when-cross-origin" allowFullScreen className={Styles.iframe}></iframe>
         

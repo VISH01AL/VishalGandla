@@ -24,7 +24,7 @@ const Project19 = ({ updateNone }: functionType) => {
           Back to Projects
         </div>
         <div className={Styles.title}>
-          ReactJS Application Deployment on Azure Kubernetes Service (AKS)
+        Gratitude Message Generator App Deployment on Azure Kubernetes Service  (AKS)
         </div>
 
         <iframe
