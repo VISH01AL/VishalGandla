@@ -31,7 +31,7 @@ const AcademicLife = () => {
                   Master of Science in Computer Science
                 </div>
                 <div className={Styles.gpa_duration}>
-                  <div className={Styles.gpa}>GPA: 4.0</div>
+                  <div className={Styles.gpa}>GPA: 4.0/4.0</div>
 
                   <div className={Styles.duration}>
                     Aug 2023 - May 2025 (Expected Graduation)
@@ -68,7 +68,7 @@ const AcademicLife = () => {
                   Bachelor of Technology in Electronics and Computer Engineering
                 </div>
                 <div className={Styles.gpa_duration}>
-                  <div className={Styles.cgpa}>CGPA: 8.42</div>
+                  <div className={Styles.cgpa}>CGPA: 3.37/4</div>
                   <div className={Styles.duration}>Jul 2016 - May 2020</div>
                 </div>
 
@@ -100,7 +100,7 @@ const AcademicLife = () => {
                 </div>
                 <div className={Styles.degree}>11th and 12th Grade</div>
                 <div className={Styles.gpa_duration}>
-                  <div className={Styles.marks}>Marks: 976/1000 (97.6%)</div>
+                  <div className={Styles.marks}>percentage (97.6%)</div>
                   <div className={Styles.duration}>May 2014 - Mar 2016</div>
                 </div>
 
