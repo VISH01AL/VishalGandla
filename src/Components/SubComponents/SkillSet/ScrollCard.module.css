@@ -49,7 +49,7 @@ align-items: center;
     background-color: white;
     padding: 0.2rem;
     box-sizing: border-box;
-    border-radius: 0.5rem;
+    border-radius: 0.3rem;
 }
 }
 
@@ -81,7 +81,7 @@ align-items: center;
             background-color: white;
             padding: 0.2rem;
             box-sizing: border-box;
-            border-radius: 0.5rem;
+            border-radius: 0.3rem;
         }
    
     .minicontainer2{

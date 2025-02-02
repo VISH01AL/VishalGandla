@@ -125,7 +125,7 @@
       list-style-type: none;
       padding:0.5rem;
       margin:0.3rem;
-      border-radius: 0.7rem;
+      border-radius: 0.3rem;
     }
     .iframe{
       width: 100%;
@@ -259,7 +259,7 @@
   list-style-type: none;
   padding:0.5rem;
   margin:0.3rem;
-  border-radius: 0.7rem;
+  border-radius: 0.3rem;
 }
 .iframe{
   width: 100%;

@@ -73,7 +73,7 @@
     .theme1,.theme2,.theme3{
         padding:0.3rem;
         margin: 0.2rem;
-        border-radius:50%;
+        border-radius:0.3rem;
         cursor: pointer;
     
     
@@ -228,7 +228,7 @@
     .theme1,.theme2,.theme3{
         padding:0.2rem;
         margin: 0.2rem;
-        border-radius:50%;
+        border-radius:0.3rem;
         cursor: pointer;
     
     
@@ -262,7 +262,7 @@
     .selectednav {
         background-color: var(--selected-navbar);
         padding: 1rem; /* Transition to padding 1rem */
-        border-radius: 0.5rem;
+        border-radius: 0.3rem;
         animation-name: selected;
         animation-duration: 1s;
         color: var(--selected-navbar-text);
@@ -375,7 +375,7 @@
 .selectedhome {
     background-color: var(--selected-navbar);
     padding: 0rem; /* Transition to padding 1rem */
-    border-radius: 0.5rem;
+    border-radius: 0.3rem;
     animation-name: selectedforhome;
     animation-duration: 1s;
     animation-fill-mode: forwards;
