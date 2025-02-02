@@ -65,7 +65,7 @@ const Project19 = ({ updateNone }: functionType) => {
         </ul>
 
         <div className={Styles.projectHighlights}>Technologies & Libraries</div>
-        <ul className={Styles.technologies}>
+        <ul className={`${Styles.technologies} ${Styles[`technologies_${theme}`]}`}>
           <li>ReactJS</li>
           <li>TypeScript</li>
           <li>Azure Kubernetes Service (AKS)</li>

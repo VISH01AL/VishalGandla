@@ -37,7 +37,7 @@ const Project13 = ({ updateNone }: functionType) => {
           </li>
         </ul>
         <div className={Styles.projectHighlights}>Technologies & Libraries</div>
-        <ul className={Styles.technologies}>
+        <ul className={`${Styles.technologies} ${Styles[`technologies_${theme}`]}`}>
           <li>React Js</li>
           <li>NodeJs</li>
           <li>ExpressJs</li>

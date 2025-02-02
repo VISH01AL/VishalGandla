@@ -52,13 +52,13 @@ const Projects = () => {
         </div>
         <div className={Styles.projectContainer}>
           <div
-            className={Styles.project}
+            className={`${Styles.project} ${Styles[`project_${theme}`]}`}
             onClick={() => {
               setSelected("project17");
             }}
           >
             <div className={Styles.title}>Dining App </div>
-            <ul className={Styles.technologies}>
+            <ul className={`${Styles.technologies} ${Styles[`technologies_${theme}`]}`}>
               <li>Spring Boot</li>
               <li>AngularJS</li>
               <li>MySQL</li>
@@ -74,13 +74,13 @@ const Projects = () => {
           </div>
 
           <div
-            className={Styles.project}
+            className={`${Styles.project} ${Styles[`project_${theme}`]}`}
             onClick={() => {
               setSelected("project16");
             }}
           >
             <div className={Styles.title}>Todo List App </div>
-            <ul className={Styles.technologies}>
+            <ul className={`${Styles.technologies} ${Styles[`technologies_${theme}`]}`}>
               <li>ReactJs</li>
               <li>ExpressJs</li>
               <li>MongoDB</li>
@@ -97,7 +97,7 @@ const Projects = () => {
 
         <div className={Styles.projectContainer}>
           <div
-            className={Styles.project}
+            className={`${Styles.project} ${Styles[`project_${theme}`]}`}
             onClick={() => {
               setSelected("project20");
             }}
@@ -106,7 +106,7 @@ const Projects = () => {
               CIFAR-10 Image Classification using Convolutional Neural Networks
               (CNN)
             </div>
-            <ul className={Styles.technologies}>
+            <ul className={`${Styles.technologies} ${Styles[`technologies_${theme}`]}`}>
               <li>Python</li>
               <li>PyTorch</li>
               <li>CIFAR-10 Dataset</li>
@@ -123,13 +123,13 @@ const Projects = () => {
           </div>
 
           <div
-            className={Styles.project}
+            className={`${Styles.project} ${Styles[`project_${theme}`]}`}
             onClick={() => {
               setSelected("project7");
             }}
           >
             <div className={Styles.title}>Portfolio Website</div>
-            <ul className={Styles.technologies}>
+            <ul className={`${Styles.technologies} ${Styles[`technologies_${theme}`]}`}>
               <li>ReactJs</li>
               <li>TypeScript</li>
               <li>Amazon S3</li>
@@ -148,13 +148,13 @@ const Projects = () => {
 
         <div className={Styles.projectContainer}>
           <div
-            className={Styles.project}
+            className={`${Styles.project} ${Styles[`project_${theme}`]}`}
             onClick={() => {
               setSelected("project1");
             }}
           >
             <div className={Styles.title}>Movie Booking System</div>
-            <ul className={Styles.technologies}>
+            <ul className={`${Styles.technologies} ${Styles[`technologies_${theme}`]}`}>
               <li>ReactJS</li>
               <li>ExpressJS</li>
               <li>JavaScript</li>
@@ -168,13 +168,13 @@ const Projects = () => {
             )}
           </div>
           <div
-            className={Styles.project}
+            className={`${Styles.project} ${Styles[`project_${theme}`]}`}
             onClick={() => {
               setSelected("project10");
             }}
           >
             <div className={Styles.title}>Cafe Management System</div>
-            <ul className={Styles.technologies}>
+            <ul className={`${Styles.technologies} ${Styles[`technologies_${theme}`]}`}>
               <li>Python</li>
               <li>Django</li>
               <li>PostgreSQL</li>
@@ -190,13 +190,13 @@ const Projects = () => {
 
         <div className={Styles.projectContainer}>
           <div
-            className={Styles.project}
+            className={`${Styles.project} ${Styles[`project_${theme}`]}`}
             onClick={() => {
               setSelected("project19");
             }}
           >
             <div className={Styles.title}>Gratitude Message Generator</div>
-            <ul className={Styles.technologies}>
+            <ul className={`${Styles.technologies} ${Styles[`technologies_${theme}`]}`}>
               <li>ReactJS</li>
               <li>TypeScript</li>
               <li>Azure Kubernetes Service</li>
@@ -210,7 +210,7 @@ const Projects = () => {
             )}
           </div>
           <div
-            className={Styles.project}
+            className={`${Styles.project} ${Styles[`project_${theme}`]}`}
             onClick={() => {
               setSelected("project18");
             }}
@@ -218,7 +218,7 @@ const Projects = () => {
             <div className={Styles.title}>
               Dining App Development and Local Deployment on Minikube
             </div>
-            <ul className={Styles.technologies}>
+            <ul className={`${Styles.technologies} ${Styles[`technologies_${theme}`]}`}>
               <li>Spring Boot</li>
               <li>Angular</li>
               <li>TypeScript</li>
@@ -238,7 +238,7 @@ const Projects = () => {
 
         <div className={Styles.projectContainer}>
           <div
-            className={Styles.project}
+            className={`${Styles.project} ${Styles[`project_${theme}`]}`}
             onClick={() => {
               setSelected("project6");
             }}
@@ -246,7 +246,7 @@ const Projects = () => {
             <div className={Styles.title}>
               Portfolio Website Deployment on AWS EC2
             </div>
-            <ul className={Styles.technologies}>
+            <ul className={`${Styles.technologies} ${Styles[`technologies_${theme}`]}`}>
               <li>ReactJs</li>
               <li>TypeScript</li>
               <li>Amazon EC2</li>
@@ -260,7 +260,7 @@ const Projects = () => {
             )}
           </div>
           <div
-            className={Styles.project}
+            className={`${Styles.project} ${Styles[`project_${theme}`]}`}
             onClick={() => {
               setSelected("project15");
             }}
@@ -268,7 +268,7 @@ const Projects = () => {
             <div className={Styles.title}>
               Containerized React App on AWS EC2
             </div>
-            <ul className={Styles.technologies}>
+            <ul className={`${Styles.technologies} ${Styles[`technologies_${theme}`]}`}>
               <li>ReactJs</li>
               <li>Docker</li>
               <li>Amazon Elastic Container Registry</li>
@@ -284,13 +284,13 @@ const Projects = () => {
         </div>
         <div className={Styles.projectContainer}>
           <div
-            className={Styles.project}
+            className={`${Styles.project} ${Styles[`project_${theme}`]}`}
             onClick={() => {
               setSelected("project13");
             }}
           >
             <div className={Styles.title}>Todo List App</div>
-            <ul className={Styles.technologies}>
+            <ul className={`${Styles.technologies} ${Styles[`technologies_${theme}`]}`}>
               <li>ReactJs</li>
               <li>NodeJs</li>
               <li>ExpressJs</li>
@@ -305,13 +305,13 @@ const Projects = () => {
             )}
           </div>
           <div
-            className={Styles.project}
+            className={`${Styles.project} ${Styles[`project_${theme}`]}`}
             onClick={() => {
               setSelected("project11");
             }}
           >
             <div className={Styles.title}>The Nature of Code</div>
-            <ul className={Styles.technologies}>
+            <ul className={`${Styles.technologies} ${Styles[`technologies_${theme}`]}`}>
               <li>HTML</li>
               <li>CSS</li>
               <li>JavaScript</li>
@@ -328,7 +328,7 @@ const Projects = () => {
 
         <div className={Styles.projectContainer}>
           <div
-            className={Styles.project}
+            className={`${Styles.project} ${Styles[`project_${theme}`]}`}
             onClick={() => {
               setSelected("project14");
             }}
@@ -336,7 +336,7 @@ const Projects = () => {
             <div className={Styles.title}>
               Frontend Mentor Challenges - Responsive Web Pages
             </div>
-            <ul className={Styles.technologies}>
+            <ul className={`${Styles.technologies} ${Styles[`technologies_${theme}`]}`}>
               <li>ReactJs</li>
               <li>CSS Modules</li>
               <li>Responsive Design</li>
@@ -350,13 +350,13 @@ const Projects = () => {
           </div>
 
           <div
-            className={Styles.project}
+            className={`${Styles.project} ${Styles[`project_${theme}`]}`}
             onClick={() => {
               setSelected("project12");
             }}
           >
             <div className={Styles.title}>Front-End Foundations</div>
-            <ul className={Styles.technologies}>
+            <ul className={`${Styles.technologies} ${Styles[`technologies_${theme}`]}`}>
               <li>HTML</li>
               <li>CSS</li>
               <li>JavaScript</li>
@@ -374,7 +374,7 @@ const Projects = () => {
 
         <div className={Styles.projectContainer}>
           <div
-            className={Styles.project}
+            className={`${Styles.project} ${Styles[`project_${theme}`]}`}
             onClick={() => {
               setSelected("project5");
             }}
@@ -382,7 +382,7 @@ const Projects = () => {
             <div className={Styles.title}>
               Relational Algebra Implementation
             </div>
-            <ul className={Styles.technologies}>
+            <ul className={`${Styles.technologies} ${Styles[`technologies_${theme}`]}`}>
               <li>Java 21</li>
             </ul>
             {selected === "project5" ? (
@@ -393,13 +393,13 @@ const Projects = () => {
           </div>
 
           <div
-            className={Styles.project}
+            className={`${Styles.project} ${Styles[`project_${theme}`]}`}
             onClick={() => {
               setSelected("project3");
             }}
           >
             <div className={Styles.title}>TCP Traceroute Implementation</div>
-            <ul className={Styles.technologies}>
+            <ul className={`${Styles.technologies} ${Styles[`technologies_${theme}`]}`}>
               <li>Python</li>
             </ul>
 
@@ -413,13 +413,13 @@ const Projects = () => {
 
         <div className={Styles.projectContainer}>
           <div
-            className={Styles.project}
+            className={`${Styles.project} ${Styles[`project_${theme}`]}`}
             onClick={() => {
               setSelected("project2");
             }}
           >
             <div className={Styles.title}>HTTPS Download Accelerator</div>
-            <ul className={Styles.technologies}>
+            <ul className={`${Styles.technologies} ${Styles[`technologies_${theme}`]}`}>
               <li>C Programming</li>
             </ul>
             {selected === "project2" ? (
@@ -430,13 +430,13 @@ const Projects = () => {
           </div>
 
           <div
-            className={Styles.project}
+            className={`${Styles.project} ${Styles[`project_${theme}`]}`}
             onClick={() => {
               setSelected("project8");
             }}
           >
             <div className={Styles.title}>Traceroute Latency Analysis Tool</div>
-            <ul className={Styles.technologies}>
+            <ul className={`${Styles.technologies} ${Styles[`technologies_${theme}`]}`}>
               <li>Python</li>
             </ul>
 
@@ -449,13 +449,13 @@ const Projects = () => {
         </div>
         <div className={Styles.projectContainer}>
           <div
-            className={Styles.project}
+            className={`${Styles.project} ${Styles[`project_${theme}`]}`}
             onClick={() => {
               setSelected("project9");
             }}
           >
             <div className={Styles.title}>DoH-capable DNS Forwarder</div>
-            <ul className={Styles.technologies}>
+            <ul className={`${Styles.technologies} ${Styles[`technologies_${theme}`]}`}>
               <li>Python</li>
             </ul>
 
@@ -466,7 +466,7 @@ const Projects = () => {
             )}
           </div>
           <div
-            className={Styles.project}
+            className={`${Styles.project} ${Styles[`project_${theme}`]}`}
             onClick={() => {
               setSelected("project4");
             }}
@@ -474,7 +474,7 @@ const Projects = () => {
             <div className={Styles.title}>
               Animal Geo-Movement Monitoring System
             </div>
-            <ul className={Styles.technologies}>
+            <ul className={`${Styles.technologies} ${Styles[`technologies_${theme}`]}`}>
               <li>C++</li>
               <li>IoT</li>
             </ul>

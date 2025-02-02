@@ -1,8 +1,11 @@
 import Styles from "./Wipro.module.css";
 import migration from "../../../images/career/migration.png";
 import googleanalytics from "../../../images/career/googleanalytics.jpeg";
+import useTheme from "../../hooks/theme/useTheme";
 
 const Wipro = () => {
+  const { theme } = useTheme();
+
   return (
     <div className={Styles.container}>
       <div className={Styles.minicontainer1}>
@@ -14,7 +17,7 @@ const Wipro = () => {
           alt="migration image"
           className={Styles.migrationimage}
         ></img>
-        <ul className={Styles.list}>
+        <ul className={`${Styles.list} ${Styles[`list_${theme}`]}`}>
           <li>
           Led a migration project to move C, Bash, and Perl code from an on-premises 
           Solaris server to Azure Cloud Red Hat Enterprise Linux for UBS (Union Bank of Switzerland), 
@@ -53,7 +56,7 @@ const Wipro = () => {
           alt="googleanalytics image"
           className={Styles.googleanalyticsimage}
         ></img>
-        <ul className={Styles.list}>
+        <ul className={`${Styles.list} ${Styles[`list_${theme}`]}`}>
           <li>
             Developed a website using HTML, CSS, and JavaScript as the primary
             project at Wipro Technologies.

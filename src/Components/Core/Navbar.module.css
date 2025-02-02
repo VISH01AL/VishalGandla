@@ -9,18 +9,15 @@
         font-weight: 500;
     }
     .container_theme1{
-       
         background-color:var(--secondary-theme1) ;
         color:var(--primary-theme1);
     }
     .container_theme2{
-        
         background-color: var(--secondary-theme2);
         color:var(--primary-theme2);
     }
     
     .container_theme3{
-
         background-color: var(--secondary-theme3);
         color:var(--primary-theme3);
     }
