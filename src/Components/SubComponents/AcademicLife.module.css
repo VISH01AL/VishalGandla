@@ -35,30 +35,15 @@
     margin: 0 1rem;
   }
   
-  .logo1{
+  .logo{
     width: 10rem;
     height:10rem;
     object-fit: contain;
     margin: 1rem;
-    border-radius: 0.3rem;
+    border-radius: 50%;
 
   }
-  .logo2{
-    width: 10rem;
-    height:10rem;
-    object-fit: contain;
-    margin: 1rem;
-    background-color: white;
-    border-radius: 0.3rem;
-  }
-  .logo3{
-    width: 10rem;
-    height:10rem;
-    object-fit: contain;
-    margin: 1rem;
-    border-radius: 0.3rem;
-
-  }
+ 
   .name {
     font-size: 1.2rem;
     font-weight: bold;
@@ -72,8 +57,30 @@
     width: 30rem;
     box-sizing: border-box;
   }
+  .minicontainer1_theme{
+    background-color: var(--academic-life);
+    color:var(--academic-life-text);
+    
+  }
+  .minicontainer_theme1 {
+    background-color:var(--secondary-theme1) ;
+        color:var(--primary-theme1);
+
+  }
+  .minicontainer_theme2 {
+    background-color: var(--secondary-theme2);
+    color:var(--primary-theme2);   
+
+
+  }
+  .minicontainer_theme3 {
+    background-color: var(--secondary-theme3);
+    color:var(--primary-theme3);
+
+  }
+
   .onebox:hover{
-    background-color: white;
+    background-color: var(--hovered-academic-life);
     border-radius: 0.3rem;
   }
 .minicontainer1>*{
@@ -191,30 +198,15 @@
     display: none;
   }
   
-  .logo1{
+  .logo{
     width: 3rem;
     height:3rem;
     object-fit: contain;
     margin: 1rem;
-    border-radius: 0.3rem;
+    border-radius: 50%;
 
   }
-  .logo2{
-    width: 3rem;
-    height:3rem;
-    object-fit: contain;
-    margin: 1rem;
-    background-color: white;
-    border-radius: 0.3rem;
-  }
-  .logo3{
-    width: 3rem;
-    height:3rem;
-    object-fit: contain;
-    margin: 1rem;
-    border-radius: 0.3rem;
 
-  }
   .name {
     font-size: 1rem;
     font-weight: bold;

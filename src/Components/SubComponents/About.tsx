@@ -12,7 +12,7 @@ const About = () => {
 
       <div className={`${Styles.container} ${Styles[`container_${theme}`]}`}>
         
-        <div className={Styles.minicontainer1}>
+        <div className={`${Styles.minicontainer1} ${Styles[`minicontainer1_${theme}`]}`}>
           <h2 className={Styles.mainText1}>Contact Info</h2>
           <ul className={Styles.list}>
             <li>

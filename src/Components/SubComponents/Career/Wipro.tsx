@@ -8,7 +8,7 @@ const Wipro = () => {
 
   return (
     <div className={Styles.container}>
-      <div className={Styles.minicontainer1}>
+      <div className={`${Styles.minicontainer1} ${Styles[`minicontainer1_${theme}`]}`}>
         <h2 className={Styles.maintext}>
           Migration of Mortgage Trading System to Azure Cloud for Enhanced Server Performance
         </h2>

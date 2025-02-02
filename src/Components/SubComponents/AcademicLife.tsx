@@ -22,8 +22,8 @@ const AcademicLife = () => {
             </div>
 
             <div className={Styles.institution}>
-              <img src={UGAlogo} alt="uga logo" className={Styles.logo1}></img>
-              <div className={Styles.minicontainer1}>
+              <img src={UGAlogo} alt="uga logo" className={Styles.logo}></img>
+              <div className={`${Styles.minicontainer1} ${Styles[`minicontainer_${theme}`]}`}>
                 <div className={Styles.name}>
                   University of Georgia, Athens, USA
                 </div>
@@ -59,8 +59,8 @@ const AcademicLife = () => {
             </div>
 
             <div className={Styles.institution}>
-              <img src={VITlogo} alt="vit logo" className={Styles.logo2}></img>
-              <div className={Styles.minicontainer1}>
+              <img src={VITlogo} alt="vit logo" className={Styles.logo}></img>
+              <div className={`${Styles.minicontainer1} ${Styles[`minicontainer_${theme}`]}`}>
                 <div className={Styles.name}>
                   Vellore Institute of Technology, Vellore, India
                 </div>
@@ -93,8 +93,8 @@ const AcademicLife = () => {
             </div>
 
             <div className={Styles.institution}>
-              <img src={NRIlogo} alt="nri logo" className={Styles.logo3}></img>
-              <div className={Styles.minicontainer1}>
+              <img src={NRIlogo} alt="nri logo" className={Styles.logo}></img>
+              <div className={`${Styles.minicontainer1} ${Styles[`minicontainer_${theme}`]}`}>
                 <div className={Styles.name}>
                   NRI Junior College, Tirupati, India
                 </div>

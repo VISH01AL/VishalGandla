@@ -22,7 +22,7 @@ const Career = () => {
               setShowCompany("company1");
             }}
           >
-            <div className={Styles.minicontainer1}>
+            <div className={`${Styles.minicontainer1} ${Styles[`minicontainer1_${theme}`]}`}>
               <img
                 src={WiproLogo}
                 alt="Wipro Logo"

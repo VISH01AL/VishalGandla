@@ -128,7 +128,7 @@ const SkillSet = () => {
       <div className={`${Styles.container} ${Styles[`container_${theme}`]}`}>
         <div className={Styles.pageheader}>Skills and Tools</div>
 
-        <div className={Styles.minicontainer1}>
+        <div className={`${Styles.minicontainer1} ${Styles[`minicontainer1_${theme}`]}`}>
           <div className={Styles.section}>
             <div className={Styles.header}>Proficient In</div>
             <ScrollCard

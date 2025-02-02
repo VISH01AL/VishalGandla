@@ -31,7 +31,7 @@ const ScrollCard: React.FC<ScrollCardProps> = ({ programmingLanguages,height,ani
   
   return (
     <div className={`${Styles.container} ${Styles[`container_${theme}`]}`} style={{height:height}}>
-      <div className={Styles.minicontainer1} style={{animationDuration:animationDuration}}>{showImages()}</div>
+      <div className={`${Styles.minicontainer1} ${Styles[`minicontainer1_${theme}`]}`} style={{animationDuration:animationDuration}}>{showImages()}</div>
       <div className={Styles.minicontainer2} style={{animationDuration:animationDuration}}>{showImages()}</div>
     </div>
   );

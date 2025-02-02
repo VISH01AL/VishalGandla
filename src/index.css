@@ -1,4 +1,6 @@
 :root{
+    --color-menu:aquamarine;
+
     --primary-theme1:rgb(74, 183, 220);
     --secondary-theme1: black;
 
@@ -8,35 +10,26 @@
     --primary-theme3:white;
     --secondary-theme3: black;
 
-
-    
     --selected-navbar:aquamarine;
     --selected-navbar-text:black;
 
-
-
     --button-hover:lightblue;
     --button-hover-text:black;
-    --color-menu:aquamarine   ;
-
     
-    --footer-icon-color:white;
-    --footer-icon-color-hover:aquamarine;
-
-    --academic-life:aquamarine;
-    --academic-life-text:black;
     --academic-life-centerline:aquamarine;;
 
-    --skillset-card-color:aquamarine;
-    --skillset-card-text: black;
 
+    
+
+ 
     --project-background:aquamarine;
     --project-background-text:black;
+    
+    
+
     --hovered-project-color:white;
     --hovered-project-color-text:black;
-    --project-technologies:black;
-    --project-technologies-text:white;
-
+    --hovered-academic-life:white;
 }
 
 

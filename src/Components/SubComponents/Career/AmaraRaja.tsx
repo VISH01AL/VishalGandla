@@ -5,7 +5,7 @@ const AmaraRaja = () => {
   const { theme } = useTheme();
 
   return (
-    <div className={Styles.minicontainer1}>
+    <div className={`${Styles.minicontainer1} ${Styles[`minicontainer1_${theme}`]}`}>
       <h2  className={Styles.maintext}>Internship Experience</h2>
       <img src={amarajaproject} alt="text" className={Styles.migrationimage}/>
       <ul className={`${Styles.list} ${Styles[`list_${theme}`]}`}>
