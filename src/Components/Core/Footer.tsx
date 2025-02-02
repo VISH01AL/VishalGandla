@@ -5,7 +5,7 @@ import geeksforgeeksIcon from '../../images/geeksforgeeksicon.png'
 import resume from '../../images/resume.png'
 
 import useTheme from '../hooks/theme/useTheme'
-import { Link } from 'react-router-dom'
+import resumeFile from '../../Resume.pdf'
 const Footer = () => {
   const {theme}=useTheme()
   
@@ -26,11 +26,10 @@ const Footer = () => {
         <a href='https://www.geeksforgeeks.org/user/vishalg1' target="_blank" className={Styles.mailtiptext}>geeks for geeks</a>
         <div className={Styles.mailtipText}>GeeksForGeeks</div>
       </a>
-      <Link to="/src/images/resume.pdf" target="_blank" download className={`${Styles.mailtip} ${Styles[`mailtip_${theme}`]}`}>
+      <a href={resumeFile} target="_blank" download className={`${Styles.mailtip} ${Styles[`mailtip_${theme}`]}`} rel="noreferrer">
         <img src={resume} alt='resume icon' className={Styles.images}  />
-      
         <div className={Styles.mailtipText}>Resume</div>
-      </Link>
+      </a>
     </div>
   )
 }
