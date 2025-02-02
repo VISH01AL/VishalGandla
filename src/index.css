@@ -1,35 +1,44 @@
 :root{
-    --color-menu:aquamarine;
+    /* --top-var:#FFA500; */
+    --top-var: #FF5F1F; 
 
-    --primary-theme1:rgb(74, 183, 220);
-    --secondary-theme1: black;
+    --top-var-compliment:black;
+    --color-menu:var( --top-var);
 
-    --primary-theme2: #F2AA4C;
-    --secondary-theme2: #101820;
-
-    --primary-theme3:white;
-    --secondary-theme3: black;
-
-    --selected-navbar:aquamarine;
-    --selected-navbar-text:black;
-
-    --button-hover:lightblue;
-    --button-hover-text:black;
     
-    --academic-life-centerline:aquamarine;;
+    /* --primary-theme1: #F2AA4C;
+    --secondary-theme1: #101820; */
+    --primary-theme1:#8AB6F9;
+    --secondary-theme1: #00246B;
+    
+
+    --primary-theme2:#e7dac7;
+    --secondary-theme2: #241f1c;
+
+    --primary-theme3: #ffb8b1;
+    --secondary-theme3: #993441;
+    
+
+    --selected-navbar:var( --top-var);
+    --selected-navbar-text:var(--top-var-compliment);
+
+    --button-hover:var(--top-var-compliment);
+    --button-hover-text:var( --top-var);
+    
+    --academic-life-centerline:var( --top-var);
 
 
     
 
  
-    --project-background:aquamarine;
-    --project-background-text:black;
+    --project-background:var( --top-var);
+    --project-background-text: var(--top-var-compliment);
     
     
 
-    --hovered-project-color:white;
-    --hovered-project-color-text:black;
-    --hovered-academic-life:white;
+    --hovered-project-color:var( --top-var);
+    --hovered-project-color-text:var(--top-var-compliment);
+    --hovered-academic-life:var( --top-var);
 }
 
 
@@ -41,7 +50,6 @@
     transition: all 0.3s ease;   
     /* overflow-x: hidden; */
     scrollbar-width: thin; /* For Firefox: makes the scrollbar thin */
-    scrollbar-color: #3498db transparent; /* For Firefox: custom color */
 }
 body{
     overflow-y: auto;
