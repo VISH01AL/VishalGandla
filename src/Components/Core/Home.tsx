@@ -15,12 +15,16 @@ const Home = () => {
           <div className={Styles.minicontainer2}>
               <div className={Styles.microcontainer2}>
                 <div className={Styles.maintextcontainer}>
-                  <div className={Styles.maintext}>Software Developer </div>
-                  <div className={Styles.maintext}> Full-Stack Developer | DevOps Engineer | Cloud Native Engineer{/* | Software Architect */}</div> 
+                  <div className={Styles.maintext}>Computer Science Grad Student | Software Developer </div>
                 </div>
                 
                 <div className={Styles.sidetext}>
-                I specialize in crafting and optimizing code with a focus on client needs. Whether it’s web development, code migration, machine learning, testing, or architecting scalable and reliable software systems, my goal is to deliver tailored products and solutions that drive client success. In my free time, I love working on personal projects, constantly exploring new technologies and challenges just for fun. You can find many of these projects on my GitHub. Let’s create impactful technology and products together. I would love to connect regarding any job and co-op opportunities.
+                I specialize in crafting and optimizing code with a focus on client needs.I am actively seeking opportunities as a Full-Stack Developer, DevOps Engineer,
+                 or Cloud Native Engineer to build scalable, secure, and high-performance applications.
+                  my goal is to deliver tailored products and solutions that drive Company success.
+                 In my free time, I love working on personal projects, constantly exploring 
+                  new technologies and challenges just for fun. You can find many of these projects on my GitHub.
+                Let’s create impactful technology and products together. I would love to connect regarding any job opportunities.
 
 
  

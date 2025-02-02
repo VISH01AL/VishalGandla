@@ -14,7 +14,7 @@ const About = () => {
         
         <div className={`${Styles.minicontainer1} ${Styles[`minicontainer1_${theme}`]}`}>
           <h2 className={Styles.mainText1}>Contact Info</h2>
-          <ul className={Styles.list}>
+          <ul className={`${Styles.list} ${Styles[`list_${theme}`]}`}>
             <li>
               Email:{" "}
               <span >
@@ -22,14 +22,10 @@ const About = () => {
               </span>
             </li>
             <li>
-              LinkedIn:{" "}
-              <a
-                href="https://www.linkedin.com/in/vish1al/"
-                target="_blank"
-                rel="noopener noreferrer"
-              >
-                https://www.linkedin.com/in/vish1al/
-              </a>
+              outlook:{" "}
+              <span >
+                 &nbsp;g.vish1al@outlook.com
+              </span>
             </li>
           </ul>
         </div>
@@ -37,8 +33,18 @@ const About = () => {
         <div className={Styles.activities}>
           <ul>
           <li>
+              <h3 className={Styles.subText}>Student supervisor</h3>
+              <ul className={`${Styles.list} ${Styles[`list_${theme}`]}`}>
+                <li>
+                  Currently working as a student supervisor at Bolton Dining Hall
+                  at UGA, collaborating with managers to provide excellent
+                  customer service.
+                </li>
+              </ul>
+            </li>
+          <li>
               <h3 className={Styles.subText}>Interests</h3>
-              <ul className={Styles.list}>
+              <ul className={`${Styles.list} ${Styles[`list_${theme}`]}`}>
                 <li>I love to dive in, whether it's a pool, river, or beach – if there's water, I'm there!</li>
                 <li>I’m all about making memories with friends and family on vacation – nothing beats good vibes, great company, and a little adventure!</li>
                 <li>I really enjoy listening to music.</li>
@@ -50,7 +56,7 @@ const About = () => {
             </li>
             <li>
               <h3 className={Styles.subText}>SPIE Club & Cricket Club</h3>
-              <ul className={Styles.list}>
+              <ul className={`${Styles.list} ${Styles[`list_${theme}`]}`}>
                 <li>Attended workshops on optics and photonics.</li>
                 <li>Collaborated in discussions about related topics.</li>
                 <li>
@@ -60,16 +66,7 @@ const About = () => {
               </ul>
             </li>
            
-            <li>
-              <h3 className={Styles.subText}>Student supervisor</h3>
-              <ul className={Styles.list}>
-                <li>
-                  Currently working as a student supervisor at Bolton Dining Hall
-                  at UGA, collaborating with managers to provide excellent
-                  customer service.
-                </li>
-              </ul>
-            </li>
+           
             
           </ul>
         </div>

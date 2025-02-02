@@ -2,9 +2,13 @@ import Styles from './Footer.module.css'
 import linkedinIcon from '../../images/linkedinicon.png'
 import githubIcon from '../../images/githubicon.png'
 import geeksforgeeksIcon from '../../images/geeksforgeeksicon.png'
+import resume from '../../images/resume.png'
+
 import useTheme from '../hooks/theme/useTheme'
+import { Link } from 'react-router-dom'
 const Footer = () => {
   const {theme}=useTheme()
+  
   return (
     <div className={`${Styles.container} ${Styles[`container_${theme}`]}`} >
       <a target="_blank" href='https://www.linkedin.com/in/vish1al/' className={`${Styles.mailtip} ${Styles[`mailtip_${theme}`]}`}>   
@@ -22,9 +26,11 @@ const Footer = () => {
         <a href='https://www.geeksforgeeks.org/user/vishalg1' target="_blank" className={Styles.mailtiptext}>geeks for geeks</a>
         <div className={Styles.mailtipText}>GeeksForGeeks</div>
       </a>
+      <Link to="/src/images/resume.pdf" target="_blank" download className={`${Styles.mailtip} ${Styles[`mailtip_${theme}`]}`}>
+        <img src={resume} alt='resume icon' className={Styles.images}  />
       
-       
-        
+        <div className={Styles.mailtipText}>Resume</div>
+      </Link>
     </div>
   )
 }
