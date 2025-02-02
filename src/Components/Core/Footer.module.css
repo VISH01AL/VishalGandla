@@ -35,6 +35,21 @@
     border-radius: 1rem;
     padding:0.3rem;
     cursor: pointer;
+    text-decoration: none;
+
+   
+}
+.mailtip_theme1{
+  background-color:var(--secondary-theme1) ;
+  color:var(--primary-theme1);
+}
+.mailtip_theme2{
+  background-color: var(--secondary-theme2);
+  color:var(--primary-theme2);
+}
+.mailtip_theme3{
+  background-color: var(--secondary-theme3);
+  color:var(--primary-theme3);
 }
 .mailtipText{
   padding:0 0.5rem;
@@ -51,9 +66,22 @@
     padding: 0.3rem 2rem;
     cursor: pointer;
     overflow: auto;
-
+    color:white;
+    background-color: aqua;
 }
   
+.mailtip_theme1:hover{
+  background-color:var(--secondary-theme1) ;
+  color:var(--primary-theme1);
+}
+.mailtip_theme2:hover{
+  background-color: var(--secondary-theme2);
+  color:var(--primary-theme2);
+}
+.mailtip_theme3:hover{
+  background-color: var(--secondary-theme3);
+  color:var(--primary-theme3);
+}
   .mailtip .mailtiptext {
     visibility: hidden;
     width: 120px;
