@@ -5,10 +5,22 @@ overflow: hidden;
 flex-direction: column;
 height: 20rem;
 width: 20rem;
-background-color: var(--skillset-card-color);
-color:var(--skillset-card-text);
+
 border-radius: 0.3rem;
 align-items: center;
+}
+.container_theme1{
+    background-color:var(--secondary-theme1) ;
+    color:var(--primary-theme1);
+}
+.container_theme2{
+    background-color: var(--secondary-theme2);
+    color:var(--primary-theme2);
+}
+
+.container_theme3{
+    background-color: var(--secondary-theme3);
+    color:var(--primary-theme3);
 }
 .container:hover{
     width: 25rem;
@@ -53,16 +65,33 @@ align-items: center;
 }
 }
 
+
+
+
 @media (max-width: 1100px) {
     .container{
         /* display: flex;
         flex-direction: column; */
-        background-color: var(--skillset-card-color);
-        color:var(--skillset-card-text);
+     
         border-radius: 0.3rem;
         align-items: center;
         overflow: auto;
         }
+        .container_theme1{
+            background-color:var(--secondary-theme1) ;
+            color:var(--primary-theme1);
+        }
+        .container_theme2{
+            background-color: var(--secondary-theme2);
+            color:var(--primary-theme2);
+        }
+        
+        .container_theme3{
+            background-color: var(--secondary-theme3);
+            color:var(--primary-theme3);
+        }
+
+        
         .eachitem{
             display: flex;
             align-items: center;

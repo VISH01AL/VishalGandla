@@ -1,3 +1,4 @@
+import useTheme from '../../hooks/theme/useTheme';
 import Styles from './ScrollCardReverse.module.css';
 
 interface ProgrammingLanguage {
@@ -12,6 +13,7 @@ interface ScrollCardReverseProps {
 }
 
 const ScrollCardReverse: React.FC<ScrollCardReverseProps> = ({ programmingLanguages,height,animationDuration }) => {
+  const {theme}=useTheme();
 
   const showImages = () => {
     return programmingLanguages.map((language, index) => {
@@ -29,7 +31,7 @@ const ScrollCardReverse: React.FC<ScrollCardReverseProps> = ({ programmingLangua
   };
 
   return (
-    <div className={Styles.container} style={{height:height}}>
+    <div className={`${Styles.container} ${Styles[`container_${theme}`]}`} style={{height:height}}>
       <div className={Styles.minicontainer1} style={{animationDuration:animationDuration}}>{showImages()}</div>
       <div className={Styles.minicontainer2} style={{animationDuration:animationDuration}}>{showImages()}</div>
     </div>

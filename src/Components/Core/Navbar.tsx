@@ -13,7 +13,7 @@ const Navbar = () => {
     <div className={`${Styles.container} ${Styles[`container_${theme}`]}`}>
         <div className={Styles.home} onClick={()=>{navigate("/")}}>
             <img src={mainlogo} alt="Main Logo" className={Styles.mainlogo} width="73px" height="73px" />
-            <div className={`${Styles.homeheader} ${location.pathname==="/" ? `${Styles.selectedhome}`: ""}`}>Vishal Gandla</div>
+            <div className={`${Styles.homeheader} ${location.pathname==="/" ? `${Styles.selectedhome}`: ""}`}>Home</div>
         </div>
 
 

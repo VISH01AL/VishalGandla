@@ -1,3 +1,4 @@
+import useTheme from "../../hooks/theme/useTheme";
 import Styles from "./ScrollCard.module.css";
 
 interface ProgrammingLanguage {
@@ -12,7 +13,7 @@ interface ScrollCardProps {
 }
 
 const ScrollCard: React.FC<ScrollCardProps> = ({ programmingLanguages,height,animationDuration }) => {
-
+  const {theme}=useTheme();
   const showImages = () => {
     return programmingLanguages.map((language, index) => {
       return (
@@ -29,7 +30,7 @@ const ScrollCard: React.FC<ScrollCardProps> = ({ programmingLanguages,height,ani
   };
   
   return (
-    <div className={Styles.container} style={{height:height}}>
+    <div className={`${Styles.container} ${Styles[`container_${theme}`]}`} style={{height:height}}>
       <div className={Styles.minicontainer1} style={{animationDuration:animationDuration}}>{showImages()}</div>
       <div className={Styles.minicontainer2} style={{animationDuration:animationDuration}}>{showImages()}</div>
     </div>
