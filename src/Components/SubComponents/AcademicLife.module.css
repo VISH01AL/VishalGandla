@@ -40,7 +40,7 @@
     height:10rem;
     object-fit: contain;
     margin: 1rem;
-    border-radius: 50%;
+    border-radius: 0.3rem;
 
   }
   .logo2{
@@ -49,14 +49,14 @@
     object-fit: contain;
     margin: 1rem;
     background-color: white;
-    border-radius: 50%;
+    border-radius: 0.3rem;
   }
   .logo3{
     width: 10rem;
     height:10rem;
     object-fit: contain;
     margin: 1rem;
-    border-radius: 50%;
+    border-radius: 0.3rem;
 
   }
   .name {
@@ -68,13 +68,13 @@
     background-color: var(--academic-life);
     color:var(--academic-life-text);
     padding:1rem;
-    border-radius: 1rem;
+    border-radius: 0.3rem;
     width: 30rem;
     box-sizing: border-box;
   }
   .onebox:hover{
     background-color: white;
-    border-radius: 1rem;
+    border-radius: 0.3rem;
   }
 .minicontainer1>*{
   margin:0.5rem;
@@ -87,7 +87,7 @@
     width: 2rem;
     height: 2rem;
     background: var( --academic-life-centerline);
-    border-radius: 50%;
+    border-radius: 0.3rem;
   }
 
   .line0{
@@ -196,7 +196,7 @@
     height:3rem;
     object-fit: contain;
     margin: 1rem;
-    border-radius: 50%;
+    border-radius: 0.3rem;
 
   }
   .logo2{
@@ -205,14 +205,14 @@
     object-fit: contain;
     margin: 1rem;
     background-color: white;
-    border-radius: 50%;
+    border-radius: 0.3rem;
   }
   .logo3{
     width: 3rem;
     height:3rem;
     object-fit: contain;
     margin: 1rem;
-    border-radius: 50%;
+    border-radius: 0.3rem;
 
   }
   .name {
@@ -224,13 +224,13 @@
     background-color: var(--academic-life);
     color:var(--academic-life-text);
     padding:0.5rem;
-    border-radius: 1rem;
+    border-radius: 0.3rem;
     box-sizing: border-box;
     width: 17rem;
   }
   .onebox:hover{
     background-color: white;
-    border-radius: 1rem;
+    border-radius: 0.3rem;
   }
 .minicontainer1>*{
   margin:0.5rem 0;
@@ -244,7 +244,7 @@
     width: 2rem;
     height: 2rem;
     background: var( --academic-life-centerline);
-    border-radius: 50%;
+    border-radius: 0.3rem;
   }
 
   .line0{

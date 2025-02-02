@@ -2,19 +2,24 @@
     --primary-theme1:rgb(74, 183, 220);
     --secondary-theme1: black;
 
-    --primary-theme2:white;
-    --secondary-theme2: black;
+    --primary-theme2: #F2AA4C;
+    --secondary-theme2: #101820;
 
-    --primary-theme3: #F2AA4C;
-    --secondary-theme3: #101820;
+    --primary-theme3:black;
+    --secondary-theme3: white;
+
+
+    
+    --selected-navbar:aquamarine;
+    --selected-navbar-text:black;
+
 
 
     --button-hover:lightblue;
     --button-hover-text:black;
     --color-menu:aquamarine   ;
 
-    --selected-navbar:aquamarine;
-    --selected-navbar-text:black;
+    
     --footer-icon-color:white;
     --footer-icon-color-hover:aquamarine;
 

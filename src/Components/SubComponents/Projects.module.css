@@ -36,7 +36,7 @@
       background-color: var(--project-background);
       color:var(--project-background-text);
       margin: 1rem;
-      border-radius: 1rem;
+      border-radius: 0.3rem;
       width: 25vw;
       box-sizing: initial;
     }
@@ -109,7 +109,7 @@
     background-color: var(--project-background);
     color:var(--project-background-text);
     margin: 1rem;
-    border-radius: 1rem;
+    border-radius: 0.3rem;
     box-sizing: initial;
   }
   .project:hover{

@@ -61,10 +61,10 @@ const About = () => {
             </li>
            
             <li>
-              <h3 className={Styles.subText}>Student Clerical</h3>
+              <h3 className={Styles.subText}>Student supervisor</h3>
               <ul className={Styles.list}>
                 <li>
-                  Currently working as a student clerical at Bolton Dining Hall
+                  Currently working as a student supervisor at Bolton Dining Hall
                   at UGA, collaborating with managers to provide excellent
                   customer service.
                 </li>

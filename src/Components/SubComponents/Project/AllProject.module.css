@@ -31,7 +31,7 @@
         color:var(--project-background-text);
         padding:0.8rem;
         margin: 1rem;
-        border-radius: 1rem;
+        border-radius: 0.3rem;
         width: 100%;
       }
       .backToProject:hover{
@@ -100,7 +100,7 @@
       width: 100%;
       padding:0.7rem 0;
       font-size: 1.2rem;
-      border-radius: 1rem;
+      border-radius: 0.3rem;
 
       background-color:var(--project-background) ;
       color:var(--project-background-text);
@@ -167,7 +167,7 @@
     color:var(--project-background-text);
     padding:0.8rem;
     margin: 1rem;
-    border-radius: 1rem;
+    border-radius: 0.3rem;
     width: 100%;
   }
   .backToProject:hover{
@@ -234,7 +234,7 @@
   width: 100%;
   padding:0.7rem 0;
   font-size: 1.2rem;
-  border-radius: 1rem;
+  border-radius: 0.3rem;
 
   background-color:var(--project-background) ;
   color:var(--project-background-text);

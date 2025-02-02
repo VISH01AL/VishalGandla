@@ -17,7 +17,7 @@
 padding:1rem;
 }
 .migrationimage,.googleanalyticsimage{
-    border-radius: 1rem;
+    border-radius: 0.3rem;
     margin:1rem;
     width: 30rem;
     height: 30rem;
@@ -32,7 +32,7 @@ padding:1rem;
 	box-shadow: 0.25rem 0.25rem 0.75rem rgb(0 0 0 / 0.15);
 	padding: 0;
 	margin: 0;
-	border-radius: 1.2rem;
+	border-radius: 0.3rem;
     color:black
 }
 .list>*{
@@ -89,7 +89,7 @@ padding:0.3rem;
 font-size: 1.2rem;
 }
 .migrationimage,.googleanalyticsimage{
-    border-radius: 1rem;
+    border-radius: 0.3rem;
     margin:1rem;
     width: 20rem;
     height: 20rem;
@@ -104,7 +104,7 @@ font-size: 1.2rem;
 	box-shadow: 0.25rem 0.25rem 0.75rem rgb(0 0 0 / 0.15);
 	padding: 0;
 	margin: 0;
-	border-radius: 1.2rem;
+	border-radius: 0.3rem;
     color:black
 }
 .list>*{
