@@ -55,7 +55,7 @@ import solarisIcon from "../../images/skillset/solaris.svg";
 
 import awsIcon from "../../images/skillset/aws.svg";
 import azureIcon from "../../images/skillset/azure.svg";
-
+import googleCloudIcon from "../../images/skillset/googlecloud.svg";
 const SkillSet = () => {
   const { theme } = useTheme();
   const programmingLanguages = [
@@ -121,6 +121,7 @@ const SkillSet = () => {
   const cloudPlatforms = [
     { name: "AWS Cloud", icon: awsIcon },
     { name: "Azure Cloud (AZ-900 certified)", icon: azureIcon },
+    { name: "Google Cloud ", icon: googleCloudIcon },
   ];
   return (
     <>

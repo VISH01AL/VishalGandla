@@ -1,4 +1,4 @@
-import Styles from "./AllProject.module.css";
+import Styles from '../AllProject.module.css';
 import useTheme from '../../hooks/theme/useTheme';
 import { functionType } from "../Projects";
 import externalLink from "../../../images/external-link.svg"

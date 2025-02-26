@@ -1,5 +1,5 @@
 import useTheme from '../../hooks/theme/useTheme';
-import Styles from './AllProject.module.css'
+import Styles from '../AllProject.module.css'
 import { functionType } from "../Projects";
 import externalLink from "../../../images/external-link.svg"
 

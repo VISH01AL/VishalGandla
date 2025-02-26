@@ -4,9 +4,11 @@ import useTheme from "../hooks/theme/useTheme";
 import Styles from "./Projects.module.css";
 import { useEffect, useState } from "react";
 
+// import WebDevelopment from "./WebDevelopment";
+// import MachineLearning from "./MachineLearning";
+
 import Project1 from "./Project/Project1";
 import Project2 from "./Project/Project2";
-
 import Project3 from "./Project/Project3";
 import Project4 from "./Project/Project4";
 import Project5 from "./Project/Project5";
@@ -25,6 +27,7 @@ import Project17 from "./Project/Project17";
 import Project18 from "./Project1/Project18";
 import Project19 from "./Project1/Project19";
 import Project20 from "./Project1/Project20";
+import Project21 from "./Project1/Project21";
 
 export type eventType = React.MouseEvent<HTMLDivElement, MouseEvent>;
 export type functionType = { updateNone: (e: eventType) => void }; // Add to the Projects component
@@ -44,12 +47,81 @@ const Projects = () => {
     }
   }, [selected]);
   return (
-    <>
-      <Navbar />
+    <> 
+      <Navbar />    
+      
+      {/* <WebDevelopment></WebDevelopment>
+      <MachineLearning></MachineLearning> */}
+
       <div className={`${Styles.container} ${Styles[`container_${theme}`]}`}>
-        <div className={Styles.header}>
-          Web Development and Machine Learning Projects
+      <div className={Styles.header}>
+            Web Development and Machine Learning Projects
+          </div>
+          <div className={Styles.projectContainer}>
+          <div
+            className={`${Styles.project} ${Styles[`project_${theme}`]}`}
+            onClick={() => {
+              setSelected("project21");
+            }}
+          >
+            <div className={Styles.title}>Recipe Sharing App</div>
+            <ul className={`${Styles.technologies} ${Styles[`technologies_${theme}`]}`}>
+              <li>ReactJS</li>
+              <li>ExpressJS</li>
+              <li>Google Artifact Registry</li>
+              <li>Google Kubernetes service</li>
+              <li>amazon Route 53</li>
+
+            </ul>
+            {selected === "project21" ? (
+              <Project21 updateNone={updateNone}></Project21>
+            ) : (
+              <></>
+            )}
+          </div>
         </div>
+      <div className={Styles.projectContainer}>
+          <div
+            className={`${Styles.project} ${Styles[`project_${theme}`]}`}
+            onClick={() => {
+              setSelected("project1");
+            }}
+          >
+            <div className={Styles.title}>Movie Booking System</div>
+            <ul className={`${Styles.technologies} ${Styles[`technologies_${theme}`]}`}>
+              <li>ReactJS</li>
+              <li>ExpressJS</li>
+              <li>JavaScript</li>
+              <li>PostgreSQL</li>
+              <li>REST API</li>
+            </ul>
+            {selected === "project1" ? (
+              <Project1 updateNone={updateNone}></Project1>
+            ) : (
+              <></>
+            )}
+          </div>
+          <div
+            className={`${Styles.project} ${Styles[`project_${theme}`]}`}
+            onClick={() => {
+              setSelected("project10");
+            }}
+          >
+            <div className={Styles.title}>Cafe Management System</div>
+            <ul className={`${Styles.technologies} ${Styles[`technologies_${theme}`]}`}>
+              <li>Python</li>
+              <li>Django</li>
+              <li>PostgreSQL</li>
+            </ul>
+
+            {selected === "project10" ? (
+              <Project10 updateNone={updateNone}></Project10>
+            ) : (
+              <></>
+            )}
+          </div>
+        </div>
+        
         <div className={Styles.projectContainer}>
           <div
             className={`${Styles.project} ${Styles[`project_${theme}`]}`}
@@ -146,47 +218,7 @@ const Projects = () => {
           </div>
         </div>
 
-        <div className={Styles.projectContainer}>
-          <div
-            className={`${Styles.project} ${Styles[`project_${theme}`]}`}
-            onClick={() => {
-              setSelected("project1");
-            }}
-          >
-            <div className={Styles.title}>Movie Booking System</div>
-            <ul className={`${Styles.technologies} ${Styles[`technologies_${theme}`]}`}>
-              <li>ReactJS</li>
-              <li>ExpressJS</li>
-              <li>JavaScript</li>
-              <li>PostgreSQL</li>
-              <li>REST API</li>
-            </ul>
-            {selected === "project1" ? (
-              <Project1 updateNone={updateNone}></Project1>
-            ) : (
-              <></>
-            )}
-          </div>
-          <div
-            className={`${Styles.project} ${Styles[`project_${theme}`]}`}
-            onClick={() => {
-              setSelected("project10");
-            }}
-          >
-            <div className={Styles.title}>Cafe Management System</div>
-            <ul className={`${Styles.technologies} ${Styles[`technologies_${theme}`]}`}>
-              <li>Python</li>
-              <li>Django</li>
-              <li>PostgreSQL</li>
-            </ul>
-
-            {selected === "project10" ? (
-              <Project10 updateNone={updateNone}></Project10>
-            ) : (
-              <></>
-            )}
-          </div>
-        </div>
+       
 
         <div className={Styles.projectContainer}>
           <div

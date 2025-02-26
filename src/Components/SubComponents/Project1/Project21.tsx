@@ -1,10 +1,9 @@
 import Styles from '../AllProject.module.css'
-;
-import useTheme from '../../hooks/theme/useTheme';
+import useTheme from "../../hooks/theme/useTheme";
 import { functionType } from "../Projects";
 import externalLink from "../../../images/external-link.svg";
 
-const Project19 = ({ updateNone }: functionType) => {
+const Project21 = ({ updateNone }: functionType) => {
   const { theme } = useTheme();
 
   return (
@@ -15,7 +14,9 @@ const Project19 = ({ updateNone }: functionType) => {
           updateNone(e);
         }}
       ></div>
-      <div className={`${Styles.minicontainer} ${Styles[`container_${theme}`]}`}>
+      <div
+        className={`${Styles.minicontainer} ${Styles[`container_${theme}`]}`}
+      >
         <div
           onClick={(e) => {
             updateNone(e);
@@ -25,13 +26,12 @@ const Project19 = ({ updateNone }: functionType) => {
           Back to Projects
         </div>
         <div className={Styles.title}>
-        Gratitude Message Generator App Deployment on Azure Kubernetes Service  (AKS)
+          Recipe Sharing App with Authentication and Cloud Deployment
         </div>
-
         <iframe
           width="560"
           height="315"
-          src="https://www.youtube.com/embed/_y2l5zEDZSk?si=7swLs1Tk6DKYR6Dp"
+          src="https://www.youtube.com/embed/GPr2aEZEBfM?si=K75obGZ7Pt6m0ga-"
           title="YouTube video player"
           frameBorder="0"
           allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
@@ -43,48 +43,61 @@ const Project19 = ({ updateNone }: functionType) => {
         <ul className={Styles.list}>
           <div className={Styles.projectHighlights}>Project Highlights</div>
           <li className={Styles.description}>
-            Developed a ReactJS application for real-time data processing and user interaction, leveraging functional components and hooks.
+            Developed a full-stack recipe-sharing platform where users can sign
+            up, log in, and share their favorite recipes.
           </li>
           <li className={Styles.description}>
-            Deployed the application to Azure Kubernetes Service (AKS) with multiple replicas to ensure high availability and scalability.
+            Implemented authentication using JWT for secure user login and
+            registration.
           </li>
           <li className={Styles.description}>
-            Integrated NGINX Ingress Controller for path-based routing, directing traffic to the appropriate application services based on the URL path.
+            Allowed users to like, create, and delete recipes with real-time
+            updates.
           </li>
           <li className={Styles.description}>
-            Utilized Cert Manager Operator to automate SSL/TLS certificate provisioning for securing the application with Let's Encrypt certificates.
+            Deployed the backend and frontend on Google Kubernetes Engine (GKE)
+            using PostgreSQL as the database.
           </li>
           <li className={Styles.description}>
-            Configured Amazon Route 53 for DNS management, routing traffic to the Azure-based application with reliable domain name resolution.
+            Configured backend services with Kubernetes, including stateful
+            sets, secrets, and persistent volumes.
           </li>
           <li className={Styles.description}>
-            Used Azure Container Registry (ACR) to store and manage Docker images for the application, enabling seamless integration with AKS during deployments.
+            Built and pushed Docker images for both frontend and backend to
+            Google Cloud Artifact Registry.
           </li>
           <li className={Styles.description}>
-            Created Kubernetes Deployment, Service, and Ingress manifests, ensuring robust load balancing and automatic TLS termination using Cert Manager.
+            Set up a managed certificate and ingress controller for secure HTTPS
+            access.
           </li>
         </ul>
 
         <div className={Styles.projectHighlights}>Technologies & Libraries</div>
         <ul className={`${Styles.technologies} ${Styles[`technologies_${theme}`]}`}>
+
           <li>ReactJS</li>
-          <li>TypeScript</li>
-          <li>Azure Kubernetes Service (AKS)</li>
-          <li>Azure Container Registry (ACR)</li>
-          <li>NGINX Ingress Controller</li>
-          <li>Cert Manager Operator</li>
-          <li>Amazon Route 53</li>
-          <li>Kubernetes</li>
+          <li>NodeJS</li>
+          <li>ExpressJS</li>
+          <li>PostgreSQL</li>
+          <li>Google Container Registry</li>
+          <li>amazon Route 53</li>
+          <li>Google Kubernetes service</li>
+          <li>Docker</li>
         </ul>
 
         <a
-          href="https://github.com/cloud-everything/Deploying-React-app-using-Kubernetes"
+          href="https://github.com/nodejs-express-js/recipeWiz"
           className={Styles.projectLinkATag}
           target="_blank"
           rel="noopener noreferrer"
         >
           <button className={Styles.projectLink}>
-            GitHub <img src={externalLink} alt="GitHub Link" className={Styles.projectLinkExternal}></img>
+            GitHub{" "}
+            <img
+              src={externalLink}
+              alt="GitHub Link"
+              className={Styles.projectLinkExternal}
+            ></img>
           </button>
         </a>
       </div>
@@ -92,4 +105,4 @@ const Project19 = ({ updateNone }: functionType) => {
   );
 };
 
-export default Project19;
+export default Project21;
