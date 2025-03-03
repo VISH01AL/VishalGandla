@@ -1,4 +1,5 @@
 @media (min-width: 1101px) {
+  
     .container {
       padding: 1rem;
       display: flex;
@@ -94,6 +95,14 @@
       background-color: var(--primary-theme3);
       color: var(--secondary-theme3);
     }
+
+    .selectionContainer{
+      width: 100%;
+      display: flex;
+      justify-content:space-between;
+      cursor: pointer;
+    }
+
 }
 
 
