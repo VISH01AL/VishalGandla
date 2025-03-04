@@ -9,6 +9,7 @@ export type functionType = { updateNone: (e: eventType) => void }; // Add to the
 
 
 import Project20 from "./Project1/Project20";
+import Project23 from "./Project1/Project23";
 
 
 const MachineLearning = () => {
@@ -44,10 +45,8 @@ const MachineLearning = () => {
             <ul className={`${Styles.technologies} ${Styles[`technologies_${theme}`]}`}>
               <li>Python</li>
               <li>PyTorch</li>
+              <li>Image Classification</li>
               <li>CIFAR-10 Dataset</li>
-              <li>THOP</li>
-              <li>NumPy</li>
-              <li>Matplotlib</li>
             </ul>
 
             {selected === "project20" ? (
@@ -57,6 +56,30 @@ const MachineLearning = () => {
             )}
           </div>
 
+
+
+          <div
+            className={`${Styles.project} ${Styles[`project_${theme}`]}`}
+            onClick={() => {
+              setSelected("project23");
+            }}
+          >
+            <div className={Styles.title}>
+            Oneshot and Iterative Magnitude Pruning of VGG neural network
+            </div>
+            <ul className={`${Styles.technologies} ${Styles[`technologies_${theme}`]}`}>
+              <li>Python</li>
+              <li>PyTorch</li>
+              <li>Neural Networks</li>
+              <li>Magnitude Pruning</li>
+            </ul>
+
+            {selected === "project23" ? (
+              <Project23 updateNone={updateNone} />
+            ) : (
+              <></>
+            )}
+          </div>
     
         </div>
     

@@ -56,6 +56,7 @@ const Project20 = ({ updateNone }: functionType) => {
         <ul className={`${Styles.technologies} ${Styles[`technologies_${theme}`]}`}>
           <li>Python</li>
           <li>PyTorch</li>
+          <li>Image Classification</li>
           <li>CIFAR-10 Dataset</li>
           <li>THOP</li>
           <li>NumPy</li>

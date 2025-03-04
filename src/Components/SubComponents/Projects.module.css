@@ -99,10 +99,43 @@
     .selectionContainer{
       width: 100%;
       display: flex;
-      justify-content:space-between;
+      justify-content:space-around;
       cursor: pointer;
     }
-
+    .selection{
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      justify-content: center;
+      padding: 1rem 7rem;
+    }
+  .selected_projectType{
+    color: var(--selected-navbar-text);
+    background-color: var(--selected-navbar);
+    padding: 1rem 7rem; /* Transition to padding 1rem */
+    border-radius: 0.3rem;
+    animation-name: selectedfornav;
+    animation-duration: 1s;
+    animation-fill-mode: forwards;
+  }
+  @keyframes selectedfornav {
+    0% {
+      padding: 1rem;
+    }
+    100% {
+      padding: 1rem 7rem;
+      background-color: var(--selected-navbar);
+      color: var(--selected-navbar-text);
+    }
+  }
+  .selectionlogo{
+    width: 7rem;
+    height: 7rem;
+    margin: 1rem;
+    border-radius: 0.3rem;
+    object-fit: cover;
+    background-color: white;
+  }
 }
 
 
@@ -199,5 +232,36 @@
   .technologies_theme3>li {
     background-color: var(--primary-theme3);
     color: var(--secondary-theme3);
+  }
+  .selectionContainer{
+    width: 100%;
+    display: flex;
+    justify-content:space-around;
+    cursor: pointer;
+    flex-direction: column;
+  }
+  .selection{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    padding: 1rem;
+  }
+  .selected_projectType{
+    color: var(--selected-navbar-text);
+    background-color: var(--selected-navbar);
+    padding: 1rem; /* Transition to padding 1rem */
+    border-radius: 0.3rem;
+    animation-name: selectedfornav;
+    animation-duration: 1s;
+    animation-fill-mode: forwards;
+  }
+  .selectionlogo{
+    width: 5rem;
+    margin: 1rem 0.3rem 1rem 0;
+    height: 5rem;
+    border-radius: 0.3rem;
+    object-fit: cover;
+    background-color: white;
   }
 }
