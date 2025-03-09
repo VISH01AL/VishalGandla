@@ -10,7 +10,7 @@ const Wipro = () => {
     <div className={Styles.container}>
       <div className={`${Styles.minicontainer1} ${Styles[`minicontainer1_${theme}`]}`}>
         <h2 className={Styles.maintext}>
-          Migration of Mortgage Trading System to Azure Cloud for Enhanced Server Performance
+        Union Bank of Switzerland: Migration of Mortgage Trading System to Azure Cloud
         </h2>
         <img
           src={migration}
@@ -49,7 +49,7 @@ const Wipro = () => {
 
       <div className={Styles.minicontainer2}>
         <h2 className={Styles.maintext}>
-          Tracking and analyzing Ecommerece data using Google Tag Manager and Google Data Analytics 
+        Huawei: Developed Shopping Website and Implemented Data Analytics 
         </h2>
         <img
           src={googleanalytics}
@@ -58,7 +58,7 @@ const Wipro = () => {
         ></img>
         <ul className={`${Styles.list} ${Styles[`list_${theme}`]}`}>
           <li>
-            Developed a website using HTML, CSS, and JavaScript as the primary
+            Developed a website using ReactJS, HTML, CSS, and JavaScript as the primary
             project at Wipro Technologies.
           </li>
           <li>
