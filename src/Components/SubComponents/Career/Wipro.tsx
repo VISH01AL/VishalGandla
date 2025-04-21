@@ -1,6 +1,6 @@
 import Styles from "./Wipro.module.css";
 import migration from "../../../images/career/migration.png";
-import googleanalytics from "../../../images/career/googleanalytics.jpeg";
+import googleanalytics from "../../../images/career/googleanalytics.png";
 import useTheme from "../../hooks/theme/useTheme";
 
 const Wipro = () => {

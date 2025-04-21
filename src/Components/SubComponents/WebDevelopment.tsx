@@ -23,7 +23,8 @@ import Project18 from "./Project1/Project18";
 import Project19 from "./Project1/Project19";
 import Project21 from "./Project1/Project21";
 import Project22 from "./Project1/Project22";
-
+import Project24 from "./Project1/Project24";
+import Project25 from "./Project1/Project25";
 
 const WebDevelopment = () => {
     const { theme } = useTheme();
@@ -44,11 +45,65 @@ const WebDevelopment = () => {
     <>
       <div className={Styles.header}>Web Applications</div>
 
+      <div className={Styles.projectContainer}>
+
+      <div
+          className={`${Styles.project} ${Styles[`project_${theme}`]}`}
+          onClick={() => {
+            setSelected("project24");
+          }}
+        >
+          <div className={Styles.title}>Car Rental System</div>
+          <ul
+            className={`${Styles.technologies} ${Styles[`technologies_${theme}`]}`}
+          >
+            <li>ReactJS</li>
+            <li>ExpressJS</li>
+            <li>PostgreSQL</li>
+            <li>Postman</li>
+            <li>Google Kubernetes service</li>
+          </ul>
+          {selected === "project24" ? (
+            <Project24 updateNone={updateNone}></Project24>
+          ) : (
+            <></>
+          )}
+        </div>
+
+        <div
+  className={`${Styles.project} ${Styles[`project_${theme}`]}`}
+  onClick={() => {
+    setSelected("project25");
+  }}
+>
+  <div className={Styles.title}>Grafana PCAP Metrics Dashboard</div>
+  <ul
+    className={`${Styles.technologies} ${Styles[`technologies_${theme}`]}`}
+  >
+    <li>Python</li>
+    <li>MySQL</li>
+    <li>Grafana</li>
+
+  </ul>
+  {selected === "project25" ? (
+    <Project25 updateNone={updateNone}></Project25>
+  ) : (
+    <></>
+  )}
+</div>
+
+
+
+
+          </div>
+
+
+
+
+
 
       <div className={Styles.projectContainer}>
-          
-
-
+        
           <div
             className={`${Styles.project} ${Styles[`project_${theme}`]}`}
             onClick={() => {
