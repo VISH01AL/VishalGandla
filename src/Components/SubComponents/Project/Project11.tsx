@@ -54,7 +54,7 @@ const Project11 = ({ updateNone }: functionType) => {
           <li>Cellular Automata</li>
         </ul>
         <a
-          href="https://github.com/Canvas-JavaScript/the-nature-of-code"
+          href="https://github.com/Creating-HTML-CSS-JAVASCRIPT/the-nature-of-code"
           className={Styles.projectLinkATag}
           target="_blank"
           rel="noopener noreferrer"

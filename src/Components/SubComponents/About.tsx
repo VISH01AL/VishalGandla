@@ -49,9 +49,9 @@ const About = () => {
                 <li>I’m all about making memories with friends and family on vacation – nothing beats good vibes, great company, and a little adventure!</li>
                 <li>I really enjoy listening to music.</li>
                 <li>Passionate about playing badminton.</li>
+                <li>Enthusiastic carrom, chess player.</li>
                 <li>Dedicated to fitness and working out.</li>
                 <li>love playing in cricket .</li>
-                <li>Enthusiastic chess player.</li>
               </ul>
             </li>
             <li>

@@ -34,7 +34,7 @@ const AcademicLife = () => {
                   <div className={Styles.gpa}>GPA: 4.0/4.0</div>
 
                   <div className={Styles.duration}>
-                    Aug 2023 - May 2025 (Expected Graduation)
+                    Aug 2023 - May 2025 
                   </div>
                 </div>
 
