@@ -4,13 +4,13 @@ import App from './App.tsx'
 import './index.css'
 
 import ThemeProvider from './StateManager/ThemeProvider.tsx'
-import { BrowserRouter } from 'react-router-dom'
+import { HashRouter  } from 'react-router-dom'
 ReactDOM.createRoot(document.getElementById('root')!).render(
   <React.StrictMode>
-  <BrowserRouter>
+  <HashRouter >
             <ThemeProvider>
             <App />
             </ThemeProvider>
-  </BrowserRouter>
+  </HashRouter>
   </React.StrictMode>,
 )
