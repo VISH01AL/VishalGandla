@@ -25,7 +25,7 @@ import Project21 from "./Project1/Project21";
 import Project22 from "./Project1/Project22";
 import Project24 from "./Project1/Project24";
 import Project25 from "./Project1/Project25";
-
+import Project26 from "./Project1/Project26";
 const WebDevelopment = () => {
     const { theme } = useTheme();
 
@@ -45,9 +45,35 @@ const WebDevelopment = () => {
     <>
       <div className={Styles.header}>Web Applications</div>
 
+
+
       <div className={Styles.projectContainer}>
 
       <div
+          className={`${Styles.project} ${Styles[`project_${theme}`]}`}
+          onClick={() => {
+            setSelected("project26");
+          }}
+        >
+          <div className={Styles.title}>Car Rental System</div>
+          <ul
+            className={`${Styles.technologies} ${Styles[`technologies_${theme}`]}`}
+          >
+            <li>ReactJS</li>
+            <li>Springboot</li>
+            <li>PostgreSQL</li>
+            <li>spring security</li>
+            <li>Google Kubernetes service</li>
+          </ul>
+          {selected === "project26" ? (
+            <Project26 updateNone={updateNone}></Project26>
+          ) : (
+            <></>
+          )}
+        </div>
+
+  
+        <div
           className={`${Styles.project} ${Styles[`project_${theme}`]}`}
           onClick={() => {
             setSelected("project24");
@@ -69,6 +95,20 @@ const WebDevelopment = () => {
             <></>
           )}
         </div>
+
+
+
+
+          </div>
+
+
+
+      
+
+
+
+      <div className={Styles.projectContainer}>
+
 
         <div
   className={`${Styles.project} ${Styles[`project_${theme}`]}`}
@@ -92,7 +132,31 @@ const WebDevelopment = () => {
   )}
 </div>
 
-
+<div
+            className={`${Styles.project} ${Styles[`project_${theme}`]}`}
+            onClick={() => {
+              setSelected("project17");
+            }}
+          >
+            <div className={Styles.title}>Dining App </div>
+            <ul
+              className={`${Styles.technologies} ${
+                Styles[`technologies_${theme}`]
+              }`}
+            >
+              <li>Spring Boot</li>
+              <li>AngularJS</li>
+              <li>MySQL</li>
+              <li>Docker</li>
+              <li>Azure Kubernetes Service</li>
+              <li>Amazon Route 53</li>
+            </ul>
+            {selected === "project17" ? (
+              <Project17 updateNone={updateNone}></Project17>
+            ) : (
+              <></>
+            )}
+          </div>
 
 
           </div>
@@ -156,31 +220,8 @@ const WebDevelopment = () => {
 
         </div>
         <div className={Styles.projectContainer}>
-        <div
-            className={`${Styles.project} ${Styles[`project_${theme}`]}`}
-            onClick={() => {
-              setSelected("project17");
-            }}
-          >
-            <div className={Styles.title}>Dining App </div>
-            <ul
-              className={`${Styles.technologies} ${
-                Styles[`technologies_${theme}`]
-              }`}
-            >
-              <li>Spring Boot</li>
-              <li>AngularJS</li>
-              <li>MySQL</li>
-              <li>Docker</li>
-              <li>Azure Kubernetes Service</li>
-              <li>Amazon Route 53</li>
-            </ul>
-            {selected === "project17" ? (
-              <Project17 updateNone={updateNone}></Project17>
-            ) : (
-              <></>
-            )}
-          </div>
+      
+
           <div
             className={`${Styles.project} ${Styles[`project_${theme}`]}`}
             onClick={() => {
@@ -205,11 +246,7 @@ const WebDevelopment = () => {
               <></>
             )}
           </div>
-          
-        </div>
-
-        <div className={Styles.projectContainer}>
-        <div
+          <div
             className={`${Styles.project} ${Styles[`project_${theme}`]}`}
             onClick={() => {
               setSelected("project10");
@@ -228,6 +265,38 @@ const WebDevelopment = () => {
 
             {selected === "project10" ? (
               <Project10 updateNone={updateNone}></Project10>
+            ) : (
+              <></>
+            )}
+          </div>
+        </div>
+
+        <div className={Styles.projectContainer}>
+        <div
+            className={`${Styles.project} ${Styles[`project_${theme}`]}`}
+            onClick={() => {
+              setSelected("project18");
+            }}
+          >
+            <div className={Styles.title}>
+              Dining App Development and Local Deployment on Minikube
+            </div>
+            <ul
+              className={`${Styles.technologies} ${
+                Styles[`technologies_${theme}`]
+              }`}
+            >
+              <li>Spring Boot</li>
+              <li>Angular</li>
+              <li>TypeScript</li>
+              <li>MySQL</li>
+              <li>Docker</li>
+              <li>Kubernetes</li>
+              <li>Minikube</li>
+            </ul>
+
+            {selected === "project18" ? (
+              <Project18 updateNone={updateNone}></Project18>
             ) : (
               <></>
             )}
@@ -341,28 +410,24 @@ const WebDevelopment = () => {
           <div
             className={`${Styles.project} ${Styles[`project_${theme}`]}`}
             onClick={() => {
-              setSelected("project18");
+              setSelected("project14");
             }}
           >
             <div className={Styles.title}>
-              Dining App Development and Local Deployment on Minikube
+              Frontend Mentor Challenges - Responsive Web Pages
             </div>
             <ul
               className={`${Styles.technologies} ${
                 Styles[`technologies_${theme}`]
               }`}
             >
-              <li>Spring Boot</li>
-              <li>Angular</li>
-              <li>TypeScript</li>
-              <li>MySQL</li>
-              <li>Docker</li>
-              <li>Kubernetes</li>
-              <li>Minikube</li>
+              <li>ReactJs</li>
+              <li>CSS Modules</li>
+              <li>Responsive Design</li>
             </ul>
 
-            {selected === "project18" ? (
-              <Project18 updateNone={updateNone}></Project18>
+            {selected === "project14" ? (
+              <Project14 updateNone={updateNone}></Project14>
             ) : (
               <></>
             )}
@@ -431,31 +496,7 @@ const WebDevelopment = () => {
         </div>
 
         <div className={Styles.projectContainer}>
-          <div
-            className={`${Styles.project} ${Styles[`project_${theme}`]}`}
-            onClick={() => {
-              setSelected("project14");
-            }}
-          >
-            <div className={Styles.title}>
-              Frontend Mentor Challenges - Responsive Web Pages
-            </div>
-            <ul
-              className={`${Styles.technologies} ${
-                Styles[`technologies_${theme}`]
-              }`}
-            >
-              <li>ReactJs</li>
-              <li>CSS Modules</li>
-              <li>Responsive Design</li>
-            </ul>
-
-            {selected === "project14" ? (
-              <Project14 updateNone={updateNone}></Project14>
-            ) : (
-              <></>
-            )}
-          </div>
+          
 
           <div
             className={`${Styles.project} ${Styles[`project_${theme}`]}`}

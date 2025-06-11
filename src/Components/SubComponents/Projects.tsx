@@ -64,7 +64,7 @@ const Projects = () => {
               alt="web development logo"
               className={Styles.selectionlogo}
             ></img>
-            16 Web development projects
+            17 Web development projects
           </div>
           
 
